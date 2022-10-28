@@ -1,9 +1,15 @@
-# FullSpeed Technologies Inc. Internship
-# Author: Dayuday, Jerson 
+---
+layout: post
+title:  "Learning and notes in fullspeed technolgies intern"
+author: Jerson Dayuday
+date: "2022-10-28"
+categories: [ Jekyll, tutorial ]
+---
+
+## Internship learning in fullspeed technolgies	
 
 
-# Internship learning in fullspeed technolgies	
-
+# Effective communication
 Here are some of the things that I've done as a software engineer intern at FULLSPEED TECHNOLOGIES INC. On my first initial week at FULLSPEED, I started my day with a virtual meeting with one of the admins for social media specialists, in this meeting I had learn about the company's background in software consultations, Digital marketing, and offshore development.
 
 In the following topic, I was able to know the organizational structure of the company and its mission and its vision. At FULLSPEED at end of every month, the company has a monthly knowledge sharing in which employees can share their knowledge with the team. During this time I was invited to another meeting for the introduction to the team/department to that I will belong (Titan department). The Titan department is one of the development departments in the company. In this particular virtual, we talk about the department goals which are :
@@ -29,6 +35,8 @@ In the coming days, we are assigned different readings regarding effective commu
 
 The focus on this area is how will you be able to effectively communicate, as humans we should realize that people have different ways of looking into things, and it is important to apply these methods when you're communicating with other people.
 
+
+# How to report a bug
 The next reading I had was about how to ask good questions and report a bug. in the first reading, I was able to learn different things that are crucial in software development, and asking a question in general the article focuses on the way how you should smartly ask a question and be able to consider the following things that you need to do before asking the question these are: 
 
 1.  Try to find an answer by searching the archives of the forum or mailing list you plan to post to.
