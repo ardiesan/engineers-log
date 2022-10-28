@@ -1,3 +1,7 @@
+# FullSpeed Technologies Inc. Internship
+# Author: Dayuday, Jerson 
+
+
 # Internship learning in fullspeed technolgies	
 
 Here are some of the things that I've done as a software engineer intern at FULLSPEED TECHNOLOGIES INC. On my first initial week at FULLSPEED, I started my day with a virtual meeting with one of the admins for social media specialists, in this meeting I had learn about the company's background in software consultations, Digital marketing, and offshore development.
