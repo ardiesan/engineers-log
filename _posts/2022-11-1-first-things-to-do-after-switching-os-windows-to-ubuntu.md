@@ -49,10 +49,12 @@ Here are commonly used commands:
 - **rm (remove file)** - delete a file/directory using this command. P.S. File is permanently deleted thus there is no way of getting it back.
 - **touch (create new empty file)** - creates a new empty file
 - **man (read the manual)** - this command is extremely helpful. This gets you the documentation of any linux commands.
-- **sudo (escalate user privileges)** - this enables you to temporarily elevate your user account into a super/root user
+- **sudo (elevate user privileges)** - this enables you to temporarily elevate your user account into a super/root user
 
 <br />
 
+
+Now, you are set! Remember, this is only the tip of the iceberg. There are much more concepts you have learn from here on out. So, stay curious and practice practice practice! 
 
 
  
