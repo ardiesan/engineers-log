@@ -17,5 +17,5 @@ Congrats on successfully installing Ubuntu! The installation was pretty easy, is
 Before anything else, it is important that our pc/laptop can connect to the internet. In windows, this is automatically setup for us. However, in most Linux-based operating system, we are given the liberty to configure it on our own. As you can observe from checking out the topbar menu, we see that wifi is nowhere to be found. And this is due to the system's default setting of not using our device's wireless network adapter. 
 
 
-To correct this, go the "Apps" then look for "Software & Updates" and click.
-![](assests/images/1.png)
+To correct this, go to "Apps" then click "Software & Updates".
+![alt](../assets/images/1.png)
