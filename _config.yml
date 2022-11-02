@@ -38,8 +38,9 @@ authors:
   nat:
     name: Natalie Sagnoy
     display_name: Nat
+    avatar: 'assets/images/nsagnoy.webp'
     email: sagoy.natalie@fullspeedtechnologies.com
-    description: "W.I.P"
+    description: "Intern"
 # Plugins
 plugins:
   - jekyll-paginate
