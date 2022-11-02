@@ -54,7 +54,7 @@ Here are commonly used commands:
 <br />
 
 
-Now, you are set! Remember, this is only the tip of the iceberg. There are much more concepts you have learn from here on out. So, stay curious and practice practice practice! 
+Now, you are set! Remember, this is only the tip of the iceberg. There are much more concepts you have to learn from here on out. So, stay curious and practice practice practice! 
 
 
  
