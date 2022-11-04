@@ -18,7 +18,4 @@ Docker is a tool/technology that allows developers to build, test and deploy the
 - **Docker container** - is a running instance of a docker image.
 - **Dockerfile** - is a text document that serves as a blueprint in building/creating docker images.
 - **Docker compose** - is a tool used to contain and run multiple instances of docker images along with its configuration. With this, we won't have to perform "docker run" one by one.
-- **Docker run** - 
-
-
-
+- **Docker run** -
