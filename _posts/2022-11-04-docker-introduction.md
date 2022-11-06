@@ -6,7 +6,7 @@ categories: [ Docker ]
 ---
 
 
-In this article, we will tackle the basic concepts, terminologies and/or tools, and how relevant it is to use Docker in software development.
+In this article, we will tackle the basic concepts, terminologies and/or tools, and reasons why you should use Docker.
 
 ----
 
