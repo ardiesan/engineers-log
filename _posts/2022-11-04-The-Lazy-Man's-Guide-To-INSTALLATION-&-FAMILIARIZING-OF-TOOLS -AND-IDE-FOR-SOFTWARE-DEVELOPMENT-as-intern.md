@@ -1,10 +1,18 @@
 ---
 layout: post
-title: "Installation & Familiarizing Tools and IDE for Software Development"
+title: "The Lazy Man's Guide To INSTALLATION & FAMILIARIZING OF TOOLS AND IDE FOR SOFTWARE DEVELOPMENT as intern"
 author: jdayuday
 categories:
-- Internship
+- Installation and Familiarization
 ---
+
+The process of installation and familiarizing yourself with new tools and IDE during your work can be stressful.
+Things may go wrong and right, but we know that if new things arrive, we need to adapt and make some adjustments for ourselves. As my mentor said, "As a software engineer, you should never bind yourself to certain things, especially in technology" Technology change drastically, every quarter, month, and even week things change so fast. So here are some of my experiences in installing and familiarizing myself with new tools and IDE for my internship.
+
+
+
+## My first week
+
 
 The first week of my internship as a software engineer in fullspeed technologies. The overall experience on my first week was great and enjoyable, on that week me and my co-intern are tasked with different reading materials such as the topics on effective communication and the proper way the report a bug.
 
