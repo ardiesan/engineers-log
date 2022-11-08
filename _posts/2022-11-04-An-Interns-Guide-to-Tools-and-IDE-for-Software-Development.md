@@ -48,6 +48,17 @@ And lastly, we are tasked every friday to create an article about some of our le
 * **MySQL** - `brew install mysql`
 * **PhpStorm** - `brew install --cask phpstorm`
 
+### Why Homebrew & CLI Installation
+
+Maybe you have noticed the things that I have installed on my local machine I only use brew commands for the command line for every installation, but why? 
+
+Well, installing using brew or any other package management system. First, it is simple and more efficient rather than using the conventional package installer which may take time to finish and configure. Second, the process of unzipping/extracting download folder. We cannot deny that it is one of the most painful parts of downloading an installer for a certain application, tools, and IDE.
+
+### What About Cask?
+
+Maybe you are wondering what's the difference between `brew install` on this git uses the homebrew package also called "formula/formulae" while `brew install --cask` which runs a GUI for the third-party installer. Between the two brew install is a better choice for installation in general as a "Mac user" because it downloads directly from the Git website.
+
+
 ## Weekly Processing Day
 
 On the last day of our sprint, we are tasked to create another article and make a pull request out of it. It's a good thing I Already took the ticket on Installation of PhpStorm and familiarized it. Instead of using CLI. I did utilize the built-in terminal inside the IDE and practice how to clone a GitHub repository using PhpStorm GUI.
@@ -56,11 +67,4 @@ Additionally, I was planning to connect my MySQL docker container to MySQL workb
 
 This is the brew command I used:
 
-* **MySQL workbence** - `brew install --cask mysqlworkbench`
-
-Maybe you have noticed the things that I have installed on my local machine I only use brew commands for the command line for every installation, but why? 
-<br>
-
-Well, installing using brew or any other package management system. First, it is simple and more efficient rather than using the conventional package installer which may take time to finish and configure. Second, the process of unzipping/extracting download folder. We cannot deny that it is one of the most painful parts of downloading an installer for a certain application, tools, and IDE.
-
-Lastly, maybe you are wondering what's the difference between `brew install` on this git uses the homebrew package also called "formula/formulae" while `brew install --cask` which runs a GUI for the third-party installer. Between the two brew install is a better choice for installation in general as a "Mac user" because it downloads directly from the Git website.
+* **MySQL workbench** - `brew install --cask mysqlworkbench`
