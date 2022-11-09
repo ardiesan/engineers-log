@@ -1,3 +1,14 @@
+---
+layout: post
+title: "An Intern's Guide to Tools and IDE for Software Development"
+author: jdayuday
+categories:
+- internship
+- tools
+- IDE
+---
+
+
 The world of software development is fascinating. Developing a product consist of three main choices, which are cheap, fast, and quality. Choosing your best categories can help your team in the future. Software development is composed of different tools that you can use to make your work more efficient and correct, choosing whether you go fast or right.
 **How about both fast and right at the same time?** **Is that the best thing to do?**
 
