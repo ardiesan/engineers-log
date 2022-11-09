@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "An Intern's Guide to Tools and IDE for Software Development"
+title: "How-to-Use-GIT-and-Github-PR-via-CLI"
 author: jdayuday
 categories:
 - internship
-- tools
-- IDE
+- Git
+- GitHub
 ---
 
 
