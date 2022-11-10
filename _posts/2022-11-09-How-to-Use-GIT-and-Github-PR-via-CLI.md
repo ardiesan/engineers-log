@@ -148,6 +148,33 @@ Sample:
 <img src="../assets/images/jdayudayghpr.png" alt="select branch">
 
 
+## Additional tip!
+In using git and using Github credentials it's a best practice to use your private email, rather than using your public GitHub in authenticating credential in CLI.
+To find your private email, follow the following steps: 
+
+Step 1: Navigate to your GitHub, on the **top-right corner** of your GitHub homepage you find your **profile icon**.
+
+Sample:
+<img src="../assets/images/jdayudaygithub1.png" alt="select branch" >
+
+
+Step 2: Navigate to the dropdown menu and select **"setting"**.
+
+Sample:
+<img src="../assets/images/jdayudaygithub2.png" alt="select branch">
+
+Step 3: Inside the setting, select email. 
+
+Sample:
+<img src="../assets/images/jdayudaygithub3.png" alt="select branch">
+
+Step 4: In your email setting, navigate below and you will find the primary email address section, you can see your private email for your GitHub account.
+
+Sample:
+<img src="../assets/images/jdayudaygithub4.png" alt="select branch">
+
+Remember! for best practices in using Git and GitHub always use your private emails.
+
 ## Conclusion
 Git is an open-source project developed by Linus Torvalds (2005), also known as the lead developer in creating the Linux kernel. Git was widely used by developers across the map because it supports various operating systems and IDEs. 
 
