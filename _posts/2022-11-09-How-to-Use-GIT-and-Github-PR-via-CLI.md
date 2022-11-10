@@ -58,30 +58,33 @@ Here's how just follow the steps on how can you use Git to clone on a remote rep
 Step 1: Using terminal configure your git credentials using this two commands `git config --global user.name [your name on Github]` - enter and `git config --global user.email [your username or email used in Github]` - enter.
 
 Sample of git config --global command in terminal:
-![Git config](/Users/jersondayuday/jdayudayfspeed/engineers-log/assets/images/gitconfig.png "Git config")
+<img src="../assets/images/gitconfig.png" alt="select branch">
 
 Step 2: After you able to configure your credential in git, make a new directory that you can work on for the repository.
 Use this command `mkdir [folder name]` to create your working directory.
 
-![mkdir](/Users/jersondayuday/jdayudayfspeed/engineers-log/assets/images/mkdir.png "Make a working directory")
+<img src="../assets/images/mkdir.png" alt="select branch">
 
 Step 3: To check if created your folder use this command `ls` and check if you created your folder.
 
 Step 4: Time to clone git repository from remote server (Github). In order to clone, first you need to change directory using `cd [path folder]`.
 
 Sample:
-![mkdir](/Users/jersondayuday/jdayudayfspeed/engineers-log/assets/images/jdayudaycd.png "Make a working directory")
+<img src="../assets/images/jdayudaycd.png" alt="select branch">
 
 Step 5: Use git clone command `git clone [https / ssh]` and enter. Wait for the cloning process to finish.
 
 Sample:
-![mkdir](/Users/jersondayuday/jdayudayfspeed/engineers-log/assets/images/jdayudaygitclone.png "Make a working directory")
-![mkdir](/Users/jersondayuday/jdayudayfspeed/engineers-log/assets/images/jdayudaycloning.png "Make a working directory")
+<img src="../assets/images/jdayudaygitclone.png" alt="select branch">
+
+<img src="../assets/images/jdayudaycloning.png" alt="select branch">
+
 
 Step 6: Check the status of your cloned repository using this command `git status` and enter.
 
 Sample:
-![mkdir](/Users/jersondayuday/jdayudayfspeed/engineers-log/assets/images/jdayudaygitstatus.png "Make a working directory")
+<img src="../assets/images/jdayudaygitstatus.png" alt="select branch">
+
 
 This is one of the ways in cloning a remote repository in GitHub.
 
@@ -127,12 +130,14 @@ allowing you to conduct all of your work in one spot.
 Steps to follow in creating a pull request using GitHub CLI.
 
 Step 1: Install GitHub CLI using this command and past it on your terminal - `brew install gh`
-![mkdir](/Users/jersondayuday/jdayudayfspeed/engineers-log/assets/images/jdayduaygh.png "Make a working directory")
+<img src="../assets/images/jdayduaygh.png" alt="select branch">
+
 
 Step 2: After installing GitHub CLI, You go to your working directory.
 
 Step 3: In your working directory use this command `gh auth login` and enter.
-![mkdir](/Users/jersondayuday/jdayudayfspeed/engineers-log/assets/images/jdayudayauth.png "Make a working directory")
+<img src="../assets/images/jdayudayauth.png" alt="select branch">
+
 
 Just follow the given instructions for GitHub login credentials.
 
@@ -140,7 +145,7 @@ Step 4: In requesting a pull request in GitHub CLI. Let's assume that you alread
 There are a different way of a request for a pull request in GitHub CLI, this is one of the sample commands that you can use `gh pr create --title [Put your title here] --body [put the body of the pull request you are requesting] [PR link]`.
 
 Sample:
-![mkdir](/Users/jersondayuday/jdayudayfspeed/engineers-log/assets/images/jdayudayghpr.png "Make a working directory")
+<img src="../assets/images/jdayudayghpr.png" alt="select branch">
 
 
 ## Conclusion
