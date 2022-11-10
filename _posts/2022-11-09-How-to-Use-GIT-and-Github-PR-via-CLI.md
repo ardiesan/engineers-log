@@ -149,7 +149,7 @@ Sample:
 
 
 ## Additional tip!
-In using git and using Github credentials it's a best practice to use your private email, rather than using your public GitHub in authenticating credential in CLI.
+In using Git and GitHub credentials it's a best practice to use your private email, rather than using your public GitHub in authenticating credential in CLI.
 To find your private email, follow the following steps: 
 
 Step 1: Navigate to your GitHub, on the **top-right corner** of your GitHub homepage you find your **profile icon**.
