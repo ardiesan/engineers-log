@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How-to-Use-GIT-and-Github-PR-via-CLI"
+title: "How to Use GIT and GitHub PR via CLI"
 author: jdayuday
 categories:
 - internship
@@ -58,7 +58,8 @@ Step 1: Using terminal configure your git credentials using this two commands
 - `git config --global user.name [your name on Github]` press enter.
 - `git config --global user.email [your username or email used in Github]` press enter.
 
-Sample of git config --global command in terminal:
+Sample:
+
 <img src="../assets/images/gitconfig.png" alt="select branch">
 
 Step 2: After you able to configure your credential in git, make a new directory that you can work on for the repository.
@@ -71,19 +72,28 @@ Step 3: To check if created your folder use this command `ls` and check if you c
 Step 4: Time to clone git repository from remote server (GitHub). In order to clone, first you need to change directory using `cd [path folder]`.
 
 Sample:
+
 <img src="../assets/images/jdayudaycd.png" alt="select branch">
 
 Step 5: Use git clone command `git clone [https / ssh]` and enter. Wait for the cloning process to finish.
 
 Sample:
+
 <img src="../assets/images/jdayudaygitclone.png" alt="select branch">
 
 <img src="../assets/images/jdayudaycloning.png" alt="select branch">
 
-
-Step 6: Check the status of your cloned repository using this command `git status` and enter.
+Step 6: After cloning the repository you need to change your directory to the exact folder of repository.
 
 Sample:
+
+<img src="../assets/images/jdayudaygorepo.png" alt="select branch">
+
+
+Step 7: Check the status of your cloned repository using this command `git status` and enter.
+
+Sample:
+
 <img src="../assets/images/jdayudaygitstatus.png" alt="select branch">
 
 
@@ -132,50 +142,68 @@ allowing you to conduct all of your work in one spot.
 Steps to follow in creating a pull request using GitHub CLI.
 
 Step 1: Install GitHub CLI using this command and past it on your terminal - `brew install gh`.
+
 <img src="../assets/images/jdayduaygh.png" alt="select branch">
 
 
 Step 2: After installing GitHub CLI, You go to your working directory.
 
 Step 3: In your working directory use this command `gh auth login` and enter.
-<img src="../assets/images/jdayudayauth.png" alt="select branch">
 
+<img src="../assets/images/jdayudayauth.png" alt="select branch">
 
 Just follow the given instructions for GitHub login credentials.
 
-Step 4: In requesting a pull request in GitHub CLI. Let's assume that you already make some changes on your working directory/branch and you already commit and push your changes. Now let's make a pull request out of it, using GitHub CLI.
+<img src="../assets/images/jdayudaygitghlog.png" alt="select branch">
+
+Step 4: It is a good practice to create another branch that you can work on, instead of working directly to the main/origin branch. This command will help to create a branch `git checkout -b [branchname]`
+
+Sample:
+
+<img src="../assets/images/jdayudaygitcheckout.png" alt="select branch">
+
+
+Step 5: In requesting a pull request in GitHub CLI. Let's assume that you already make some changes on your working directory/branch and you already commit and push your changes. Now let's make a pull request out of it, using GitHub CLI.
 There are a different way of a request for a pull request in GitHub CLI, this is one of the sample commands that you can use `gh pr create --title [Put your title here] --body [put the body of the pull request you are requesting] [PR link]`.
 
 Sample:
-<img src="../assets/images/jdayudayghpr.png" alt="select branch">
+
+<img src="../assets/images/jdayudayselectgh.png" alt="select branch">
+
+<img src="../assets/images/jdayudaybranchgh.png" alt="select branch">
 
 
 ## Additional tip!
 In using Git and GitHub credentials it's a best practice to use your private email, rather than using your public GitHub in authenticating credential in CLI.
 To find your private email, follow the following steps:
 
-Step 1: Navigate to your GitHub, on the **top-right corner** of your GitHub homepage you find your **profile icon**.
+Step 1: Navigate to your GitHub, in the **top-right corner** of your GitHub homepage you find your **profile icon**.
 
 Sample:
+
 <img src="../assets/images/jdayudaygithub1.png" alt="select branch" >
 
 
 Step 2: Navigate to the dropdown menu and select **"setting"**.
 
 Sample:
+
 <img src="../assets/images/jdayudaygithub2.png" alt="select branch">
 
 Step 3: Inside the setting, select email.
 
 Sample:
+
 <img src="../assets/images/jdayudaygithub3.png" alt="select branch">
 
 Step 4: In your email setting, navigate below, and you will find the primary email address section, you can see your private email for your GitHub account.
 
 Sample:
+
 <img src="../assets/images/jdayudaygithub4.png" alt="select branch">
 
 Remember! for best practices in using Git and GitHub always use your private emails.
+To know more about Git and GitHub pull request process you can check this article [**What is a Pull Request, the Process, and Why** (Sagnoy, 2022)](../assets/images/2022-11-09-what-is-a-pull-request-the-process-and-why.md)
 
 ## Conclusion
 Git is an open-source project developed by Linus Torvalds (2005), also known as the lead developer in creating the Linux kernel. Git was widely used by developers across the map because it supports various operating systems and IDEs.
