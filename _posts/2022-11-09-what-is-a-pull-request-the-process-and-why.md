@@ -21,7 +21,7 @@ Now that we have defined a "Pull Request", it is important that we know its core
 
 To simply put, **Code Review** is an approach in software development wherein fellow developers of a project checks each other's code. Which helps in eliminating typos or mistakes, provide enhancements, and enables team collaboration. Although this process can be viewed as tedious and time-consuming, performing code review is beneficial to maintaining the quality of the code and how it can be improved. Below is an illustration of how a code review works.
 
-<img src="../assets/images/code_review.svg" alt="code review process" width="800px">
+<img src="{{ site.baseurl }}/assets/images/code_review.svg" alt="code review process" width="800px">
 
 As shown above, a developer makes code, test's it and then submits/pushes it for a code review. In the code review stage, when an issue or mistake is detected, fixes and changes will be requested back to the developer. This cycle will continue until all issues are solved and finally the code is pushed to the code base. Same process happens with pull request which we will also tackle in this article. 
 
@@ -47,21 +47,21 @@ As shown above, a developer makes code, test's it and then submits/pushes it for
 
 1. To create a Pull Request in GitHub is simple and straightforward. Once you have pushed your local commits to the remote repository, go to the GitHub website and open your repository. A highlighted container will appear. 
    
-   <img src="../assets/images/pull_request_cont.png" alt="pull request" width="800px"> <br />
+   <img src="{{ site.baseurl }}/assets/images/pull_request_cont.png" alt="pull request" width="800px"> <br />
    Click "Compare & Pull Request".
 
    If no highlighted container appears. You can simply go to "Pull Requests" and click "New pull request".
 
-   <img src="../assets/images/new_pull_request.png" alt="new pull request" width="800px">
+   <img src="{{ site.baseurl }}/assets/images/new_pull_request.png" alt="new pull request" width="800px">
 
    Note: Make sure you select the correct base and compare branch for the pull request.
 
-   <img src="../assets/images/select_branch.png" alt="select branch" width="800px">
+   <img src="{{ site.baseurl }}/assets/images/select_branch.png" alt="select branch" width="800px">
    
 
 2. A pull request form will appear. Again, as suggested in the "Dos and Don'ts", give descriptive/meaningful title and description of the request.
 
-   <img src="../assets/images/pr_form.png" alt="pull request form" width="800px">
+   <img src="{{ site.baseurl }}/assets/images/pr_form.png" alt="pull request form" width="800px">
 
    When you have filled out the form, simply click "Create Pull Request" and you are done.
 
@@ -71,7 +71,7 @@ As shown above, a developer makes code, test's it and then submits/pushes it for
    
 4. The assigned reviewer will then review the code. They can give feedback or request modifications/changes which are added in as comments near the code line.
 
-   <img src="../assets/images/comments.png" alt="pull request comments" width="800px">
+   <img src="{{ site.baseurl }}/assets/images/comments.png" alt="pull request comments" width="800px">
 
 
 5. The developer will resolve these issues and replies to the reviewer. This cycle will continue until all issues are addressed/resolved.
