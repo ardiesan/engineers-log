@@ -20,12 +20,11 @@ As for now, Git holds the record as by far the widely known and use version cont
 
 
 
-## What is version control? and its importance
+## Version Control and its importance
 Version control, also called source control, is the practice of tracking and managing changes from the code project. The goal of a source control system is to help developers to track and manage changes to the project source code for a faster and smarter way of sharing your codes. How does the version control system track? every modification that happened on the project is being tracked in a git database. If developers do mistakes, they can easily be fixed by turning back to the earlier version when the project code was working fine.
 
 How to get started with Git?
 If you are planning to use Git, here is the first thing you need to do. Install   Git using the terminal.
-
 
 
 **Follow these steps:**
@@ -38,8 +37,9 @@ If you can install Git on your local machine successfully. Next is to install th
 
 
 
-## What is Git credential manager?
-Using Git credential manager also called GCM, is another way of storing your credentials in remote hosting software for managing Git remote repositories. With GCM you don't have to manually create your access credentials/token, in which GCM will automatically authenticate your credentials on your behalf.
+## What is Git Credential Manager?
+Git Credential Manager also called GCM, it is another way of storing your credentials in remote hosting software for managing Git remote repositories. With GCM you don't have to manually create your access credentials/token, in which GCM will automatically authenticate your credentials on your behalf.
+
 To install the Git credential manager.
 
 **Follow these steps:**
@@ -48,7 +48,6 @@ To install the Git credential manager.
 
 3. Click enter and wait for the installation to complete.
 
-<br>
 
 ## How to use Git?
 Here's how just follow the steps on how can you use Git to clone on a remote repository (Github).
@@ -60,12 +59,12 @@ Step 1: Using terminal configure your git credentials using this two commands
 
 Sample:
 
-<img src="../assets/images/gitconfig.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/gitconfig.png" alt="select branch">
 
 Step 2: After you able to configure your credential in git, make a new directory that you can work on for the repository.
 Use this command `mkdir [folder name]` to create your working directory.
 
-<img src="../assets/images/mkdir.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/mkdir.png" alt="select branch">
 
 Step 3: To check if created your folder use this command `ls` and check if you created your folder.
 
@@ -73,28 +72,28 @@ Step 4: Time to clone git repository from remote server (GitHub). In order to cl
 
 Sample:
 
-<img src="../assets/images/jdayudaycd.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayudaycd.png" alt="select branch">
 
 Step 5: Use git clone command `git clone [https / ssh]` and enter. Wait for the cloning process to finish.
 
 Sample:
 
-<img src="../assets/images/jdayudaygitclone.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayudaygitclone.png" alt="select branch">
 
-<img src="../assets/images/jdayudaycloning.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayudaycloning.png" alt="select branch">
 
 Step 6: After cloning the repository you need to change your directory to the exact folder of repository.
 
 Sample:
 
-<img src="../assets/images/jdayudaygorepo.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayudaygorepo.png" alt="select branch">
 
 
 Step 7: Check the status of your cloned repository using this command `git status` and enter.
 
 Sample:
 
-<img src="../assets/images/jdayudaygitstatus.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayudaygitstatus.png" alt="select branch">
 
 
 This is one of the ways in cloning a remote repository in GitHub.
@@ -143,34 +142,34 @@ Steps to follow in creating a pull request using GitHub CLI.
 
 Step 1: Install GitHub CLI using this command and past it on your terminal - `brew install gh`.
 
-<img src="../assets/images/jdayduaygh.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayduaygh.png" alt="select branch">
 
 
 Step 2: After installing GitHub CLI, You go to your working directory.
 
 Step 3: In your working directory use this command `gh auth login` and enter.
 
-<img src="../assets/images/jdayudayauth.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayudayauth.png" alt="select branch">
 
 Just follow the given instructions for GitHub login credentials.
 
-<img src="../assets/images/jdayudaygitghlog.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayudaygitghlog.png" alt="Login Credentials">
 
 Step 4: It is a good practice to create another branch that you can work on, instead of working directly to the main/origin branch. This command will help to create a branch `git checkout -b [branchname]`
 
 Sample:
 
-<img src="../assets/images/jdayudaygitcheckout.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayudaygitcheckout.png" alt="Git Checkout">
 
 
-Step 5: In requesting a pull request in GitHub CLI. Let's assume that you already make some changes on your working directory/branch and you already commit and push your changes. Now let's make a pull request out of it, using GitHub CLI.
+Step 5: In requesting a Pull Request in GitHub CLI. Let's assume that you already make some changes on your working directory/branch and you already commit and push your changes. Now let's make a pull request out of it, using GitHub CLI.
 There are a different way of a request for a pull request in GitHub CLI, this is one of the sample commands that you can use `gh pr create --title [Put your title here] --body [put the body of the pull request you are requesting] [PR link]`.
 
 Sample:
 
-<img src="../assets/images/jdayudayselectgh.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayudayselectgh.png" alt="Pull Request">
 
-<img src="../assets/images/jdayudaybranchgh.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayudaybranchgh.png" alt="Pull Request">
 
 
 ## Additional tip!
@@ -181,26 +180,26 @@ Step 1: Navigate to your GitHub, in the **top-right corner** of your GitHub home
 
 Sample:
 
-<img src="../assets/images/jdayudaygithub1.png" alt="select branch" >
+<img src="{{ site.baseurl }}/assets/images/jdayudaygithub1.png" alt="GitHub Profile-Settings" >
 
 
 Step 2: Navigate to the dropdown menu and select **"setting"**.
 
 Sample:
 
-<img src="../assets/images/jdayudaygithub2.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayudaygithub2.png" alt="GitHub Settings Config">
 
 Step 3: Inside the setting, select email.
 
 Sample:
 
-<img src="../assets/images/jdayudaygithub3.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayudaygithub3.png" alt="GitHub Email Config">
 
 Step 4: In your email setting, navigate below, and you will find the primary email address section, you can see your private email for your GitHub account.
 
 Sample:
 
-<img src="../assets/images/jdayudaygithub4.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayudaygithub4.png" alt="GitHub Private Email">
 
 Remember! for best practices in using Git and GitHub always use your private emails.
 To know more about Git and GitHub pull request process you can check this article [**What is a Pull Request, the Process, and Why** (Sagnoy, 2022)](../assets/images/2022-11-09-what-is-a-pull-request-the-process-and-why.md)
