@@ -30,8 +30,7 @@ If you are planning to use Git, here is the first thing you need to do. Install 
 
 **Follow these steps:**
 1. Open your terminal
-2. Use and paste this command in your terminal
-    * `brew install git`
+2. Use and paste this command in your terminal - `brew install git`.
 
 3. Click enter and wait for the installation to complete
 
@@ -45,17 +44,19 @@ To install the Git credential manager.
 
 **Follow these steps:**
 1. In the same terminal after you install git
-2. Use and paste this command in your terminal -
-    * `brew install git-credential-manager`
+2. Use and paste this command in your terminal -`brew install git-credential-manager`.
 
-3. Click enter and wait for the installation to complete
+3. Click enter and wait for the installation to complete.
 
 <br>
 
 ## How to use Git?
 Here's how just follow the steps on how can you use Git to clone on a remote repository (Github).
 
-Step 1: Using terminal configure your git credentials using this two commands `git config --global user.name [your name on Github]` - enter and `git config --global user.email [your username or email used in Github]` - enter.
+Step 1: Using terminal configure your git credentials using this two commands 
+
+- `git config --global user.name [your name on Github]` press enter.
+- `git config --global user.email [your username or email used in Github]` press enter.
 
 Sample of git config --global command in terminal:
 <img src="../assets/images/gitconfig.png" alt="select branch">
@@ -113,13 +114,14 @@ This is one of the ways in cloning a remote repository in GitHub.
 
 **These are the following **Git Don't**:**
 
-* Don’t commit directly to the master or development branches.
+* Don’t **commit directly to the master** or development branches.
 * Don’t hold up work by not committing local branch changes to remote branches.
-* Don’t create one pull request addressing multiple issues.
+* Don’t create one **pull request addressing multiple issues**.
 * Don’t work on multiple issues in the same branch. If a feature is dropped, it will be difficult to revert changes.
 * Don’t reset a branch without committing/stashing your changes. If you do so, your changes will be lost.
 * Don’t do a force push until you’re extremely comfortable performing this action.
 
+These things are important to remember and practice especially if you are working on a public/company repository. In following this Do's and Don't list you may be able to work efficiently and avoid the disruption of workflow.
 
 <br>
 
@@ -129,7 +131,7 @@ allowing you to conduct all of your work in one spot.
 
 Steps to follow in creating a pull request using GitHub CLI.
 
-Step 1: Install GitHub CLI using this command and past it on your terminal - `brew install gh`
+Step 1: Install GitHub CLI using this command and past it on your terminal - `brew install gh`.
 <img src="../assets/images/jdayduaygh.png" alt="select branch">
 
 
@@ -168,7 +170,7 @@ Step 3: Inside the setting, select email.
 Sample:
 <img src="../assets/images/jdayudaygithub3.png" alt="select branch">
 
-Step 4: In your email setting, navigate below and you will find the primary email address section, you can see your private email for your GitHub account.
+Step 4: In your email setting, navigate below, and you will find the primary email address section, you can see your private email for your GitHub account.
 
 Sample:
 <img src="../assets/images/jdayudaygithub4.png" alt="select branch">
