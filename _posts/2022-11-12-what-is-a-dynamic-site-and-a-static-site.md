@@ -70,6 +70,8 @@ How do you create a dynamic website? These are some basic requirements you need 
 - **Database** -  A database is an information house where data is stored in different tables that can be retrieved whenever the need arises. Dynamic websites pull data from the database and file system with the help of server-side scripting languages to build web pages, such as HTML, CSS, and Javascript.
 - **Content Management System (CMS)** - The content management system (CMS) is the part of a web server that allows data to be accessed from the database and file system. It is written in a server-side scripting language to create a connection between the web server, database, and the client's browser.
 
+<br>
+
 ## So, what is a static site?
 Dynamic website changes are the type of website that automatically chooses the material displayed each time a person visits it. This display varies based on a variety of parameters, such as viewer demographics, time of day, location, language preferences, and so on. Dynamic websites provide viewers with unique material each time they visit the site. This is accomplished by combining client-side and server-side scripting.
 
