@@ -43,8 +43,3 @@ Here are cheap and free hosting options for you.
 
 - GitHub - one of the easiest ways to get a basic static site online.
 - Netlify - also offers free hosting for static sites.
-
-
-
-
-
