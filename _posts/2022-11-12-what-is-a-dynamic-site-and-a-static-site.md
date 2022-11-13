@@ -12,7 +12,7 @@ The continual growth of web development. Web development began with the creation
 As the web got popular, its development started to improve over time. In web development, new things are being added and improved for a faster and smoother way of communicating and collaborating on ideas and projects. New technologies, tools, extensions, etc. are being constantly updated. Because of the rapid improvements in technology, these changes have influenced how consumers interact with material online. In this article, we will find out what is meant by "dynamic" and "static" websites. What they are, what are their differences, how to build one, and, lastly, what are the things you need to learn to create your website in the future?
 
 ## What is a "dynamic" website?
-Dynamic website changes are the type of website that automatically chooses the material displayed each time a person visits it. This display varies based on a variety of parameters, such as viewer demographics, time of day, location, language preferences, and so on. Dynamic websites provide viewers with unique material each time they visit the site. This is accomplished by combining client-side and server-side scripting.
+Dynamic websites are the type of website that automatically chooses the material displayed each time a person visits it. This display varies based on a variety of parameters, such as viewer demographics, time of day, location, language preferences, and so on. Dynamic websites provide viewers with unique material each time they visit the site. This is accomplished by combining client-side and server-side scripting.
 
 
 ###  client-side and server-side scripting? say what?
@@ -73,8 +73,6 @@ How do you create a dynamic website? These are some basic requirements you need 
 <br>
 
 ## So, what is a static site?
-Dynamic website changes are the type of website that automatically chooses the material displayed each time a person visits it. This display varies based on a variety of parameters, such as viewer demographics, time of day, location, language preferences, and so on. Dynamic websites provide viewers with unique material each time they visit the site. This is accomplished by combining client-side and server-side scripting.
-
 A static site is a website composed of HTML files, wherein each file represents a physical page of a website. As the word "static" suggests, its code is fixed but can be updated manually. Static web pages are delivered to the user's web browser exactly as stored. Thus, the same content is delivered every time the page is loaded.
 
 <img src="../assets/images/staticvsdynamic.jpg" alt="static vs dynamic sites" width="600px"> <br />
@@ -83,7 +81,7 @@ As shown in the illustration above, static web pages are passed straight from th
 
 **Why build a Static Website?**
 
-Since static web pages are pre-built files. It only communicates with the backend when there are changes to the content instead of at every request. It also does not send information to the server. This results to faster performance such as page load speed. Another, good thing about static sites, it that they work particularly well for basic sites or sites with pages that uses the same general structure such as blogs.
+Since static web pages are pre-built files. It only communicates with the backend when there are changes to the content instead of at every request. It also does not send information to the server. This results to faster performance such as page load speed. Another good thing about static sites, is that they work particularly well for basic sites or sites with pages that uses the same general structure such as blogs.
 
 
 **How to build a Static Website?**
