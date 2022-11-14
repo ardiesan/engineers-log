@@ -15,14 +15,14 @@ As the web got popular, its development started to improve over time. In web dev
 Dynamic websites are the type of website that automatically chooses the material displayed each time a person visits it. This display varies based on a variety of parameters, such as viewer demographics, time of day, location, language preferences, and so on. Dynamic websites provide viewers with unique material each time they visit the site. This is accomplished by combining client-side and server-side scripting.
 
 
-###  client-side and server-side scripting? say what?
+**client-side and server-side scripting? say what?**
 **Client-Side Scripting:** This code is performed by the viewer's browser and is written in scripting languages such as JavaScript. It is responsible for producing modifications to the webpage in response to user inputs such as mouse clicks or keyboard input usage.
 
 **Server-side scripting:** on the other hand, refers to code that is run by the server before the content is sent to the viewer's browser. When a webpage is loaded or visited, this impacts it, such as with login pages, submission forms, and shopping carts.
 
 By utilizing both scripting methods, modern websites can adapt to each user's view of the page while decreasing server load time.
 
-### Elements of dynamic websites
+**Elements of dynamic websites**
 - The format changes depending on the screen size of the user's device.
 - Custom recommendation.
 - Integration of social media and offsite content.
@@ -34,13 +34,13 @@ By utilizing both scripting methods, modern websites can adapt to each user's vi
 ## Benefits of using a dynamic over a static website
 Shifting from a static website to a dynamic website has a positive impact on your business and your target customer. Here why!
 
-### Add more capabilities for personalized browsing
+**Add more capabilities for personalized browsing**
 Having a dynamic website allows you to give visitors a personalized browsing experience. This can include product suggestions and features for recently viewed items. Your site can also offer content based on location and demographics to help visitors stay on your page.
 
-### When compared to a static website, maintenance is much easier
+**When compared to a static website, maintenance is much easier**
 You can upload content with ease, edit backgrounds, and other design elements, and even make changes to the site without the knowledge of coding. Dynamic websites make use of a content management system (CMS) that provides a database for content and other elements on the page.
 
-### Better user experience
+**Better user experience**
 Dynamic websites are good for improving the overall user experience as well as allowing you to easily upgrade and add more functionalities to the site.
 
 <br>
@@ -111,5 +111,5 @@ Here are cheap and free hosting options for you.
 
 <br>
 
-### Summary
+## Summary
 Getting started with web development is a safe path to familiarize and practice how to create a basic static website, which as a developer it will help you to establish the good building fundamentals on how the web development process works and able to improve your website in adding new features and functionality that will enable your website to allow visitors to personalized and give them better browsing experience.
