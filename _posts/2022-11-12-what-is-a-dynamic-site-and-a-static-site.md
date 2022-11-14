@@ -6,6 +6,7 @@ categories:
 - internship
 - static site
 - dynamic site
+image: assets/images/dynamic_and_static_website.png
 ---
 The continual growth of web development. Web development began with the creation of the World Wide Web in March 1989. The small beginning of web development started as a hypertext project, also called by its creators "WorldWideWeb," which means a "web" of hypertext documents that can be viewed using local browsers.
 

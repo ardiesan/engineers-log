@@ -6,6 +6,7 @@ categories:
 - internship
 - static site
 - dynamic site
+image: assets/images/dynamic_vs_static_website.png
 ---
 
 Websites can be classified as either static or dynamic. Static websites, which are often made entirely of HTML, are fixed and show the same content to every user. A dynamic website, on the other hand, uses advanced programming and databases in addition to HTML to display different materials and allow user interaction. As you can see, creating static websites is simpler than creating dynamic ones. However, this does not mean that static sites are better than dynamic sites (and vice versa).
