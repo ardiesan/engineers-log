@@ -24,7 +24,12 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+
+gems:
+  - jekyll-minifier
+  - jekyll-related_posts
+  - jekyll-mermaid
+
 # Archives
 jekyll-archives:
   enabled:
@@ -79,4 +84,15 @@ exclude:
 - README.md
 - Gemfile
 - Gemfile.lock
+
+related:
+  display: true
+  display_excerpt: true
+
+related_by: tags or categories
+related_limit: 3
+related_from: posts
+related_categories: 1
+related_tags: 1
+related_template: related-post.html
 

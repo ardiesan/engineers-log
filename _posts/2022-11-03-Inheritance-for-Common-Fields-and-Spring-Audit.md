@@ -5,6 +5,7 @@ author: canis
 categories: 
 - spring
 - springframework
+image: assets/images/database-audit-columns-01.jpeg
 ---
 
 In this article, we are going to focus on common fields and how it can affect our application if we do not plan ahead of time.  

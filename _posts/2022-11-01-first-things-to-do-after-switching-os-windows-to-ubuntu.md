@@ -5,6 +5,7 @@ author: nsagnoy
 categories: 
 - internship
 - ubuntu
+image: assets/images/switch-from-win-to-ubuntu-01.jpeg
 ---
 
 Congrats on successfully installing Ubuntu! The installation was pretty easy, isn't it? Well, not to rain on your parade, there are still a tad bit of things you need to know and set up in order to fully enjoy your newly installed Linux distro. No need to worry. I've got it covered.

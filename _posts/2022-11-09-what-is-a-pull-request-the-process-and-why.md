@@ -7,6 +7,7 @@ categories:
 - git
 - github
 - pull request
+image: assets/images/pr-request-process-why-01.jpeg
 ---
 
 The use of **pull request** has been a standard in software development. Its biggest benefit is that it presents an opportunity for a **code review** which is a crucial process in source code management. 

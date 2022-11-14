@@ -6,6 +6,7 @@ categories:
 - internship
 - tools
 - IDE
+image: assets/images/interns-guide-to-setup-01.png
 ---
 
 The process of installation and familiarizing yourself with new tools and IDE during your work can be stressful.

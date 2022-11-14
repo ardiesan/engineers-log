@@ -6,6 +6,7 @@ categories:
 - internship
 - git
 - github
+image: assets/images/git-github-pr.jpeg
 ---
 
 

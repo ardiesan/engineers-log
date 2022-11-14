@@ -5,7 +5,7 @@ pagination:
   enabled: true
 ---
 
-{% if page.url == "/" %}
+{% if page.url == "/" or page.url == "/index.html" %}
 <!-- Featured
 ================================================== -->
 {% assign featured = site.posts | where: "featured", true %}

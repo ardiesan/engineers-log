@@ -5,6 +5,7 @@ author: nsagnoy
 categories:
 - internship
 - docker
+image: assets/images/introduction-to-docker-01.jpeg
 ---
 
 

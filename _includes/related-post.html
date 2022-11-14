@@ -1,0 +1,31 @@
+{% assign author = site.data.authors[post.author] %}
+    <li class="related-item">
+      <div class="container-fluid">
+        <div class="row related-list-title">
+          <div class="col-md-9 pl-0">
+            {% if author.avatar %}
+            <img class="related-author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.full_name }}">
+            {% endif %}
+            <a href="{{ site.baseurl }}/author/{{post.author}}" class="related-author-name">{{ author.full_name }}</span> in
+            {% for cat in post.categories %}
+            <a href="{{ site.baseurl }}/categories#{{ cat }}" class="related-tag">{{ cat }}</a>
+            {% endfor %}
+          </div>
+          <div class="col-md-3 p-0">
+            <span class="related-post-time">{{ post.date | date_to_string }} &nbsp;&#183;&nbsp;{% include read-time.html content=post.content %}</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 p-0 pt-3">
+            <a href="{{ post.url | relative_url }}" class="related-link">{{ post.title }}</a>
+          </div>
+        </div>
+        {% if site.related.display_except == true %}
+        <div class="row">
+          <div class="col-12 p-0 pt-3">
+            <div class="related-excerpt">{{ post.excerpt | truncate: 160 }}</div>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </li>

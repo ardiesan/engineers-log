@@ -9,6 +9,7 @@ License: https://www.wowthemes.net/freebies-license/
 }
 .mainheading {
     padding: 1rem 0rem;
+    margin-bottom: 40px;
 }
 
 a {
@@ -501,10 +502,13 @@ ul.tags li {
 }
 
 ul.tags li a {
-    background: rgba(0, 0, 0, .05);
     color: rgba(0, 0, 0, .6);
-    border-radius: 3px;
-    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, .6);
+
+    padding: 10px 20px 12px;
+    border-radius: 30px;
+    text-transform: lowercase;
+    font-size: 0.8rem;
 }
 
 ul.tags li a:hover {
@@ -797,7 +801,7 @@ iframe {
 }
 
 .jumbotron.fortags a {
-    padding: 5px 10px 7px;
+    padding: 10px 20px 12px;
     background: #222;
     border-radius: 30px;
     color: #fff;
@@ -898,4 +902,56 @@ iframe {
 .lazyimg[data-srcset] {
     opacity: 0;
     transition: opacity .25s;
+}
+
+/** related **/
+.related-wrapper .section-title h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 0.5rem;
+    margin-bottom: 20px;
+}
+
+.related-wrapper ul.related-list {
+    list-style: none;
+    padding: 0;
+}
+
+.related-wrapper ul.related-list li {
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    padding: 15px 10px;
+}
+.related-wrapper a.related-link {
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    font-size: 110%;
+}
+.related-wrapper .related-author-thumb {
+    width: 24px;
+    height: 24px;
+    margin-right: 13px;
+    border-radius: 100%;
+}
+.related-wrapper .related-list-title {
+    color: rgba(0, 0, 0, .4);
+}
+.related-wrapper .related-author-name {
+    color: rgba(0, 0, 0, .9);
+}
+.related-wrapper .related-tag {
+    color: rgba(0, 0, 0, .9);
+    border: 1px solid rgba(0, 0, 0, .6);
+
+    padding: 4px 10px;
+    border-radius: 30px;
+    text-transform: lowercase;
+}
+
+.mainheading .reading-time {
+    padding-right: 20px;
+    color: rgba(0, 0, 0, 0.45);
+}
+.related-wrapper .related-post-time {
+    color: rgba(0, 0, 0, .3);
 }
