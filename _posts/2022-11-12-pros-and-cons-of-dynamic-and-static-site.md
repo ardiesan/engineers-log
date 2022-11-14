@@ -70,3 +70,5 @@ A static website is created using CSS & HTML used to build webpages. It is made 
 In the early years of web development, websites were mainly static or composed of HTML pages. However, along with the rapid improvements in technology, websites have also become dynamic and complex. Static and Dynamic sites both have their advantages and disadvantages. 
 
 To sum up, static sites works well for small websites that does not need to be dynamic (like blogs). Anything beyond that, should opt to build a dynamic website.
+
+To have further details regarding on dynamic and static websites, please check this article [**What is dynamic and static website** (Sagnoy & Dayuday, 2022)](../_posts/2022-11-12-what-is-a-dynamic-site-and-a-static-site.md)
