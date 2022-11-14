@@ -55,6 +55,34 @@ Although dynamic sites are extremely powerful they are also complex. However, al
   Compared to creating a static website, creating a dynamic website might be more difficult. As a result, developing a dynamic website will be more expensive and need significant resources to develop and maintain.
 
 
+Now we know what are the pros and cons of a dynamic website. Next, we gonna tackle is about static websites.
+
+<br>
+
+## Quick recap what is a static website
+<img src="../assets/images/jdayudaystatic.png" alt="static vs dynamic site" width="600px">
+
+
+A static website is created using CSS & HTML used to build webpages. It is made up of a collection of coded files that are used to represent various physical pages on the site. These websites are simple and quick to create. A static website resembles an online brochure, complete with forms and hyperlinks that allow potential buyers to explore different pages on the screen. A static web site's pages, once created, will remain static and cannot be updated without coding skills. That is, if the business owner wishes to update specific information on the static website, he must hire a skilled developer to do so.
+
+
+## Pros and Cons of static website
+
+### Pros
+
+- **_Time saving_** : One of the most significant benefits of a static website is its quick development time. A static website is easier to create than a dynamic one.
+- **_Cost-Effective_** : A static website, as opposed to a dynamic website, is relatively inexpensive to create. So entrepreneurs on a tight budget would undoubtedly choose this alternative. You may buy dedicated servers at a lower cost for static websites.
+- **_Easy Indexing_** : Because it is simply a collection of coded HTML or CSS files, search engines such as Google can easily index it.
+- **_Fast Transferring_** : Because static websites do not have complex structures like dynamic websites, they can be easily transferred from server to client without requiring lengthy processing time.
+
+<br>
+
+### Con's
+
+- **_Limited Functionality_** : Because static websites do not have complex structures like dynamic websites, they can be easily transferred from server to client without requiring lengthy processing time.
+- **_Difficulty in changing and updating information_** : It takes time and effort to edit and refresh the material on a static website. To finish the operation, a technical expert will be necessary because every HTML file must be altered individually even to make minor adjustments to the web pages.
+- **_No Apt for the long run_** : To stay up to date with the latest information, any online business must make several changes and updates. To make changes live on a static website, each file must be changed multiple times.
+
 
 ## Summary
 In the early years of web development, websites were mainly static or composed of HTML pages. However, along with the rapid improvements in technology, websites have also become dynamic and complex. Static and Dynamic sites both have their advantages and disadvantages. 
