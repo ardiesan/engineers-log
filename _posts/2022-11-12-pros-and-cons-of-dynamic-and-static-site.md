@@ -68,7 +68,7 @@ A static website is created using CSS & HTML used to build webpages. It is made 
 
 ## Pros and Cons of static website
 
-### Pros
+**Pros**
 
 - **_Time saving_** : One of the most significant benefits of a static website is its quick development time. A static website is easier to create than a dynamic one.
 - **_Cost-Effective_** : A static website, as opposed to a dynamic website, is relatively inexpensive to create. So entrepreneurs on a tight budget would undoubtedly choose this alternative. You may buy dedicated servers at a lower cost for static websites.
@@ -77,7 +77,7 @@ A static website is created using CSS & HTML used to build webpages. It is made 
 
 <br>
 
-### Con's
+**Cons**
 
 - **_Limited Functionality_** : Because static websites do not have complex structures like dynamic websites, they can be easily transferred from server to client without requiring lengthy processing time.
 - **_Difficulty in changing and updating information_** : It takes time and effort to edit and refresh the material on a static website. To finish the operation, a technical expert will be necessary because every HTML file must be altered individually even to make minor adjustments to the web pages.
