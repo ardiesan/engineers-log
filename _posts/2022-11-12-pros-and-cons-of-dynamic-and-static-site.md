@@ -19,40 +19,22 @@ Dynamic sites are websites that change content or layout upon request to the ser
 
 Although dynamic sites are extremely powerful they are also complex. However, along with this complexity are numerous advantages and disadvantages.
 
+
+## Pros and Cons of dynamic website
+
 **Pros**
 
-- _Provides a better User Experience_ 
+- _**Provides a better User Experience**_ : A dynamic website is highly user-friendly and enables users to make modifications to the website as needed. These websites allow visitors to submit comments or responses based on their interactions with the website. This enables the developers to get immediate feedback on their work, which they can then improve. It is possible to create easy navigation, add and upgrade functionalities, and so on fast and effectively, all of which will enhance the overall experience.
+- _**Easier Updates**_ : The main benefit of a dynamic website is that it is simple to change according to the requirements of the website owner. A single update to the template file will change the design of all the pages that use that specific file, thus modifying a dynamic website does not need advanced technical skills. It can be swiftly modified to adapt to different screen sizes, which was not feasible with a static website.
+- _**Easily Manageable**_ : Dynamic websites make utilize scripting languages that interact with the information in the databases, making it simple to implement site-wide updates without having to do it one at a time.
+- _**More personalized Browsing**_ : The ability to give users a personalized browsing experience is one of the most important benefits of having a dynamic website. This includes content and product recommendations, recently viewed products, and content based on location and demographic which helps keep visitors to your site.
 
-  A dynamic website is highly user-friendly and enables users to make modifications to the website as needed. These websites allow visitors to submit comments or responses based on their interactions with the website. This enables the developers to get immediate feedback on their work, which they can then improve. It is possible to create easy navigation, add and upgrade functionalities, and so on fast and effectively, all of which will enhance the overall experience.
-
-
-- _Easier Updates_
-
-  The main benefit of a dynamic website is that it is simple to change according to the requirements of the website owner. A single update to the template file will change the design of all the pages that use that specific file, thus modifying a dynamic website does not need advanced technical skills. It can be swiftly modified to adapt to different screen sizes, which was not feasible with a static website.
-
-
-- _Easily Manageable_
-
-  Dynamic websites make utilize scripting languages that interact with the information in the databases, making it simple to implement site-wide updates without having to do it one at a time.
-
-
-- _More personalized Browsing_
-
-  The ability to give users a personalized browsing experience is one of the most important benefits of having a dynamic website. This includes content and product recommendations, recently viewed products, and content based on location and demographic which helps keep visitors to your site.
-
-
-
+<br />
 
 **Cons**
 
-- _Slower Processing_ 
-
-  As mentioned, dynamic websites offer a better user experience compared to static websites. Web pages are generated as per the user's input which exerts a major toll on server resources. As a result, the server has bottlenecks, and end users have delayed response times.
-
-
-- _Costly_
-
-  Compared to creating a static website, creating a dynamic website might be more difficult. As a result, developing a dynamic website will be more expensive and need significant resources to develop and maintain.
+- _**Slower Processing**_ : As mentioned, dynamic websites offer a better user experience compared to static websites. Web pages are generated as per the user's input which exerts a major toll on server resources. As a result, the server has bottlenecks, and end users have delayed response times.
+- _**Costly**_ : Compared to creating a static website, creating a dynamic website might be more difficult. As a result, developing a dynamic website will be more expensive and need significant resources to develop and maintain.
 
 
 Now we know what are the pros and cons of a dynamic website. Next, we gonna tackle is about static websites.
