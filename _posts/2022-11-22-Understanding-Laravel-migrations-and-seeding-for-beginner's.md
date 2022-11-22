@@ -17,8 +17,9 @@ Laravel is a reliable and simple-to-use open-source PHP framework. It adheres to
 
 Incorporating the fundamental components of PHP frameworks like CodeIgniter and Yii as well as other programming languages like Ruby on Rails, Laravel provides a wide range of functionalities. The extensive feature set of Laravel will accelerate web development.
 
-**Laravel's application flow diagram**
 <img src="../assets/images/jdayuday_laravel_1.png" alt="static vs dynamic site" width="600px">
+
+
 
 **Here are some disadvantages that the Laravel framework can offer for web-based applications:**
 - The Laravel framework helps the web application become more scalable.
@@ -53,8 +54,10 @@ php artisan list
 ```
 php artisan migrate:make create_users_table
 ```
+<br>
 
-after you the command you will be able to see your project file under in `app/database/migrations folder/directory`.
+
+After you the command you will be able to see your project file under in `app/database/migrations folder/directory`.
 
 If you want to specify a specific path for your migration you can use this command instead:
 ```
@@ -78,6 +81,8 @@ php artisan migrate --[path]=app/foo/migrations
 **Additional information for Laravel migration power**
 Basically migration rollback is reverse migration that brings back your previous database state.
 
+<br>
+
 Rollback your last migration just use this command: 
 ```
 php artisan migrate:rollback
@@ -95,6 +100,7 @@ php artisan migrate:refresh
 php artisan migrate:refresh
 ```
 
+<br>
 
 **To know more about migration you can check the website for official Laravel migration website.** 
 
@@ -115,6 +121,12 @@ To make a seeder use this command in your preferred CLI:
 ```
 php artisan make:seeder UserSeeder
 ```
+
+<br>
+
+sample: 
+<img src="../assets/images/jdayuday_laravel_1.png" alt="static vs dynamic site" width="600px">
+
 
 By default, a seeder class has exactly one method: run. When the db:seed Artisan command is issued, this method is invoked. You can insert data into your database however you want using the run method.
 
@@ -137,6 +149,8 @@ php artisan migrate:fresh --seed
 References: https://laravel.com/docs/9.x/seeding#running-seeders 
 
 To sum it up, the difference between **migrating and seeding** (Laravel), you can think of migration as somewhat version control for your database in which it will allow you to modify your database schema and keep it updated. During migration, it is typically paired with a schema builder which handles and manages your application schema. On the other hand, seeding is another way of storing data inside your database including its test data for seed classes (Laravel).
+
+<br>
 
 **To know more about Laravel PHP web framework you can their official website for more information.** 
 
