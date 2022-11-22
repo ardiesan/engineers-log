@@ -17,7 +17,7 @@ Laravel is a reliable and simple-to-use open-source PHP framework. It adheres to
 
 Incorporating the fundamental components of PHP frameworks like CodeIgniter and Yii as well as other programming languages like Ruby on Rails, Laravel provides a wide range of functionalities. The extensive feature set of Laravel will accelerate web development.
 
-<img src="../assets/images/jdayuday_laravel_1.png" alt="static vs dynamic site" width="600px">
+<img src="{{ site.baseurl }}/assets/images/jdayuday_laravel_1.png" alt="static vs dynamic site" width="600px">
 
 
 
@@ -125,7 +125,7 @@ php artisan make:seeder UserSeeder
 <br>
 
 sample: 
-<img src="../assets/images/jdayuday_laravel_1.png" alt="static vs dynamic site" width="600px">
+<img src="{{ site.baseurl }}/assets/images/jdayuday_laravel_1.png" alt="static vs dynamic site" width="600px">
 
 
 By default, a seeder class has exactly one method: run. When the db:seed Artisan command is issued, this method is invoked. You can insert data into your database however you want using the run method.
