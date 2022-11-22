@@ -96,7 +96,7 @@ php artisan migrate:refresh
 ```
 
 
-To know more about migration you can check the website for official Laravel migration website. 
+**To know more about migration you can check the website for official Laravel migration website.** 
 
 References: https://laravel.com/docs/4.2/migrations
 
@@ -117,3 +117,28 @@ php artisan make:seeder UserSeeder
 ```
 
 By default, a seeder class has exactly one method: run. When the db:seed Artisan command is issued, this method is invoked. You can insert data into your database however you want using the run method.
+
+## Running your Laravel seeder
+To seed your database you may use db:seed by default this command will run the `Database\Seeders\DatabaseSeeder`:
+```
+php artisan db:seed
+```
+
+**Additional to Laravel seeder**
+You can use `migrate:fresh` to see your database with `--see` the option. This command will drop all tables and re-run all of your migrations. This command is useful for completely re-building your database:
+```
+php artisan migrate:fresh --seed
+```
+
+<br>
+
+**For additional information regarding Laravel writing seeders, you can check the official Laravel website**
+
+References: https://laravel.com/docs/9.x/seeding#running-seeders 
+
+To sum it up, the difference between **migrating and seeding** (Laravel), you can think of migration as somewhat version control for your database in which it will allow you to modify your database schema and keep it updated. During migration, it is typically paired with a schema builder which handles and manages your application schema. On the other hand, seeding is another way of storing data inside your database including its test data for seed classes (Laravel).
+
+**To know more about Laravel PHP web framework you can their official website for more information.** 
+
+References: https://laravel.com/docs/9.x
+
