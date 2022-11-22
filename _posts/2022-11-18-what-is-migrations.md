@@ -3,11 +3,11 @@ layout: post
 title: "What is Migrations"
 authors:
 - nsagnoy
-  categories:
+categories:
 - internship
 - migrations
 - seeding
-  image: assets/images/database_migrations.png
+image: assets/images/database_migrations.png
 ---
 
 Laravel is an open-source PHP framework built to develop web applications that aim to make the development process easier for developers. It takes care of common services in a project such as routing, authentication, sessions, and database. There are tons of perks to utilizing Laravel. However, in this article, we will focus on a particular feature that is tremendously useful in dealing with the database called **Migrations**.
@@ -30,7 +30,7 @@ Migration is a file that defines a table in a schema. It is by default found und
 To create a migration file you simply do the command:
 
     php artisan make:migration <name>
-Note: Always give descriptive names to your files. For this example, we want to create a flights table thus the migration file is named 'create_flights_table'.
+**Note:** Always give descriptive names to your files. For this example, we want to create a flights table thus the migration file is named 'create_flights_table'.
 
 <img src="../assets/images/create_migration.png" alt="new migration file" width="800px">
 
@@ -51,11 +51,12 @@ This command reverses the last migration batch.
 To rollback and migrate with a single command:
 
     php artisan migrate:refresh
-This will rollback all your migrations and then migrate
+This will roll back all your migrations and then migrate
 
 For dropping all tables in the database and then execute migrate use this command:
 
     php artisan migrate:fresh
+
 
 ## Tables
 **Create Table**
