@@ -17,6 +17,8 @@ Laravel is a reliable and simple-to-use open-source PHP framework. It adheres to
 
 Incorporating the fundamental components of PHP frameworks like CodeIgniter and Yii as well as other programming languages like Ruby on Rails, Laravel provides a wide range of functionalities. The extensive feature set of Laravel will accelerate web development.
 
+<br>
+
 ## Laravel seeding
 **What is seeding?** To make it simple Data seeding is the process of populating a database with an initial set of data.
 
@@ -24,6 +26,7 @@ In Laravel December 24, 2020. Database seeding is the process of populating data
 
 Laravel offers the ability to use seed classes to populate your database with data. The database/seeders directory contains all seed classes. 
 
+<br>
 
 ## Now you what is seeding, let's try a little demonstration for seeding
 
@@ -169,24 +172,21 @@ In your database factories, you can see there is already a `UserFactory` generat
 Let me explain what is happening in this code snippet. In your `UserFactory` there is a `definition()` what does it do? 
 The `definition` method returns the default set of attribute values that should be applied when creating a model using the factory.
 
-In our factory, we are going to utilize `Faker PHP library` which can use to generate random data for seeding.
+In our factory, we are going to utilize `Faker PHP library` which can use to generate random data for seeding. The php faker library offers different data that it can generate. This is some of the following data list that faker offers:
 
-The php faker library offers different data that it can generate. This is some of the following data list that faker offers:
-
-| **Faker Generate the following data** |
-|-----------------------------------|
-| Base                              |
-| Lorem Ipsum Text                  |
-| Person                            |
-| Address                           |
-| Phone number                      |
-| Company                           |
-| Real text                         |
-| Date and Time                     |
-| Payment                           |
-| Color                             |
-| Uuid                              |
-| File                              |
+**Faker Generate the following data**
+- Base
+- Lorem Ipsum Text
+- Person
+- Address
+- Phone number
+- Company
+- Reat Text
+- Date and Time
+- Payment
+- Color
+- Uuid
+- File
 
 
 Let's try to use our UserFactory sample to seed 100 data for user tables.
@@ -235,11 +235,22 @@ After tha, in the run method we are going to use the call method to execute our 
 
 For now, as what did above you need to create a factory for each of your seeder classes. After your created your seeder `factories and models`. Let's run the multiple seeders at once using your created seeder class to hold your multiple seeder classes:
 
+Sample:
+
+<img src="../assets/images/jdayuday_laravel_seed_6.png" alt="select branch">
+
+
 ```
 php artisan db:seed --class=[class_name]
 ```
 
-still adding content...
+In this way, you can execute `multiple seeders` in one seeder class.
+
+<br>
+
+## Conclusion
+
+In your, Laravel project choosing between two ways of handling your database table data, can be difficult. To answer this question, it depends on what is your project's current state and needs. Both are powerful database utilities that you can use. If you are looking for a way to casually populate/seed your database table you can use seeder if you want to test your fresh Laravel project. Migrations, on the other hand, are another way of handling your data from the database, which offers better capability the only seeding itself, migrations are designed to handle the creation of tables, adding and modifying your database schema and tables columns.
 
 
 
