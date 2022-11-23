@@ -6,6 +6,7 @@ categories:
 - internship
 - migrations
 - seeding
+- image: assets/images/jdayuday_laravel_seed_7.png
 ---
 
 Web application frameworks  according to GeeksforGeeks as "a software framework that is meant to assist the creation of web applications including web services, web resources, and web APIs." In layman's terms, web frameworks are pieces of software that allow you to design and execute web applications. As a result, you don't have to write on your own and hunt for any errors and miscalculations.
@@ -59,7 +60,7 @@ I am assuming that you can connect with your preferred database, if you haven't 
 
 **Sample code:**
 
-<img src="../assets/images/jdayuday_laravel_seed_1.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayuday_laravel_seed_1.png" alt="new migration file" width="1500px">
 
 <br>
 
@@ -117,6 +118,7 @@ use Illuminate\Support\Str;
         }
     }
 ```
+
 <br>
 Your run method inside the seeder class that you created should look like this by now.
 
@@ -124,7 +126,7 @@ Your run method inside the seeder class that you created should look like this b
 
 Sample: 
 
-<img src="../assets/images/jdayuday_laravel_seed_2.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayuday_laravel_seed_2.png" alt="new migration file" width="1500px">
 
 **What does this code do? In this snippet code we are seeding our user's table 10 random data for `name, email and password`**
 
@@ -133,7 +135,7 @@ Sample:
 <br>
 Sample: 
 
-<img src="../assets/images/jdayuday_laravel_seed_3.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayuday_laravel_seed_3.png" alt="new migration file" width="1500px">
 
 After that you need to run this to your command:
 
@@ -148,7 +150,7 @@ After you are able to successfully execute the `php artisan db:seed` if you chec
 
 Sample: 
 
-<img src="../assets/images/jdayuday_laravel_seed_5.png" alt="select branch">
+<img src="{{ site.baseurl }}/assets/images/jdayuday_laravel_seed_5.png" alt="new migration file" width="1500px">
 
 
 <br>
@@ -237,8 +239,7 @@ For now, as what did above you need to create a factory for each of your seeder 
 
 Sample:
 
-<img src="../assets/images/jdayuday_laravel_seed_6.png" alt="select branch">
-
+<img src="{{ site.baseurl }}/assets/images/jdayuday_laravel_seed_6.png" alt="new migration file" width="800px">
 
 ```
 php artisan db:seed --class=[class_name]
