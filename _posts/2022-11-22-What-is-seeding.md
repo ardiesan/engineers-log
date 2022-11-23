@@ -41,7 +41,7 @@ composer create-project laravel/laravel [project_name]
 cd /.../[project_name]
 ```
 
-**Lets try if you can use PHP artisan command:**
+**Let's try if you can use PHP artisan command:**
 
 ```
 php artisan list
@@ -67,20 +67,25 @@ Now that you created your fresh Laravel project we will proceed with creating an
 In your Laravel project, you have the capability to seed your database with data using seed classes. Laravel project store your seed classes inside the `database/seeders` directory. 
 
 ## Writing seeders
-To generate a new seeder, execute the following command make:seeder. All of your seeders will be placed in the database/seeders directory of your Laravel project.
+In writing seeders in laravel your need to the following:
+- Using model factories
+- Call seeders
+- Muting Models Events (optional)
+
+Creating / making seeders in laravel is pretty straight forward just follow the steps below:
+
+**To generate a new seeder, execute the following command `make:seeder`. All of your seeders will be placed in the `database/seeders` directory of your Laravel project.**
 
 ```
 php artisan make:seeder [seeder_name]
 ```
 
+After you able to make the seeder, go to your `database/seeders` folder and open the seeder class that you created. 
+Inside your seeder class you can see that there is a `run()` method already generated in your seeder class. The `run` method will be one `php artisan` will execute when you run your seeder class later.
+
+
 
 <br>
-Sample: 
-
-<img src="../assets/images/jdayuday_laravel_seed_2.png" alt="select branch">
-
-
-
 Additional information, if you are having trouble making commands on your Laravel you can use this to know all the commands you can use PHP artisan list on your Laravel project.
 
 ```
@@ -89,13 +94,13 @@ php artisan list
 
 In your `run() method` you can try to insert this following code:
 
+
 ```
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 ```
-
 
 ```
  public function run()
@@ -109,7 +114,18 @@ use Illuminate\Support\Str;
         }
     }
 ```
-Your run method inside the seeder class that you created should look like this by now
+<br>
+Your run method inside the seeder class that you created should look like this by now.
+
+<br>
+
+Sample: 
+
+<img src="../assets/images/jdayuday_laravel_seed_2.png" alt="select branch">
+
+**What does this code do? In this snippet code we are seeding our user's table 10 random data for `name, email and password`**
+
+
 
 <br>
 Sample: 
@@ -125,11 +141,103 @@ php artisan db:seed --class=[class name]
 With command, you are able to seed your database `users` table.
 
 
+After you are able to successfully execute the `php artisan db:seed` if you check your database, your database should have a table named `users` with 10 row of data.
+
+Sample: 
+
+<img src="../assets/images/jdayuday_laravel_seed_5.png" alt="select branch">
+
+
+<br>
+
+## Model factories 
+As a developer it is not efficient to manually specify the attributes of your seeder class. What we can do is we can utilize Laravel model factories which automatically generate of database records for you.
+
+Follow the command below to  generate your custom `factory`:
+
+```
+php artisan make:factory [factory_name]
+
+```
+after you execute the command your factory will be located in your `database/factories`.
+`
+
+In your database factories, you can see there is already a `UserFactory` generated in your directory. For now, we can utilize that factory use it for the user `users table`. It should look like this:
+
+<img src="../assets/images/jdayuday_laravel_seed_4.png" alt="select branch">
+
+Let me explain what is happening in this code snippet. In your `UserFactory` there is a `definition()` what does it do? 
+The `definition` method returns the default set of attribute values that should be applied when creating a model using the factory.
+
+In our factory, we are going to utilize `Faker PHP library` which can use to generate random data for seeding.
+
+The php faker library offers different data that it can generate. This is some of the following data list that faker offers:
+
+| **Faker Generate the following data** |
+|-----------------------------------|
+| Base                              |
+| Lorem Ipsum Text                  |
+| Person                            |
+| Address                           |
+| Phone number                      |
+| Company                           |
+| Real text                         |
+| Date and Time                     |
+| Payment                           |
+| Color                             |
+| Uuid                              |
+| File                              |
+
+
+Let's try to use our UserFactory sample to seed 100 data for user tables.
+
+Replace the inside of your `run()` in your seeder with this:
+
+```
+[table_name]::factory()
+            ->count([data_size])
+            ->create();
+```
+
+run the command calling your seeder class:
+
+```
+php artisan db:seed --class=[class name]
+
+```
+
+Your database should be seeded with data depends on what is the size you specify in your count method for your `factory()` method.
+
+
 <br>
 
 ## Running multiple seed classes
-To run multiple seeder classes you to do the following:
 
+To run multiple seeder classes at one seeder class you need to utilize the call function in your project which will execute the other seeder classes that you want to run. The call method accepts an array of seeder, follow the command below:
+
+Let's create a new seeder class which will use to run multiple seeders:
+
+```
+php artisan db:seed --class=[class name]
+
+```
+
+After tha, in the run method we are going to use the call method to execute our seeders:
+
+
+```
+        $this->call([
+           [class_name]::class
+           [class_name]::class
+           [class_name]::class
+        ]);
+```
+
+For now, as what did above you need to create a factory for each of your seeder classes. After your created your seeder `factories and models`. Let's run the multiple seeders at once using your created seeder class to hold your multiple seeder classes:
+
+```
+php artisan db:seed --class=[class_name]
+```
 
 still adding content...
 
