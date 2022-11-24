@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is seeding"
+title: "What is Seeding"
 author: jdayuday
 categories:
 - internship
@@ -9,13 +9,13 @@ categories:
 image: assets/images/jdayuday_laravel_seed_7.png
 ---
 
-Web application frameworks  according to **GeeksforGeeks** as "a software framework that is meant to assist the creation of web applications including web services, web resources, and web APIs." In layman's terms, web frameworks are pieces of software that allow you to design and execute web applications. As a result, you don't have to write on your own and hunt for any errors and miscalculations.
+Web application frameworks is "a software framework that is meant to assist the creation of web applications including web services, web resources, and web APIs." In layman's terms, web frameworks are pieces of software that allow you to design and execute web applications. As a result, you don't have to write on your own and hunt for any errors and miscalculations.
 
 Web frameworks were established in the early days of web app development as a way to eliminate hand-coding of apps where only the creator of a specific app could update it. The advancement of web development now we have web-specific languages that allow developers to solve altering the structure of an app has been overcome by the emergence of general performance. In this article, we are going to focus on the Laravel web application framework specifically for **Laravel seeding**
 
 <br>
 
-## Laravel php web application framework
+## Laravel - PHP Web Application Framework
 Laravel is a reliable and simple-to-use open-source PHP framework. It adheres to the model-view-controller pattern of design. Laravel makes use of pre-existing parts from other frameworks to build online applications. The resulting web application is more organized and practical.
 
 Incorporating the fundamental components of PHP frameworks like CodeIgniter and Yii as well as other programming languages like Ruby on Rails, Laravel provides a wide range of functionalities. The extensive feature set of Laravel will accelerate web development.
@@ -30,7 +30,8 @@ Incorporating the fundamental components of PHP frameworks like CodeIgniter and 
 
 <br>
 
-## Laravel seeding
+## Laravel Seeding
+
 **What is seeding?** To make it simple Data seeding is the process of populating a database with an initial set of data.
 
 In Laravel December 24, 2020. Database seeding is the process of populating data tables with fictitious data. This procedure is used by developers for testing. Using seeder classes, Laravel allows you to fill data tables with test data. The database/seeds directory contains all seeder classes. Laravel offers the ability to use seed classes to populate your database with data. The database/seeders directory contains all seed classes. 
@@ -43,23 +44,25 @@ In the development process, it is crucial for software developers to use product
 
 <br>
 
-## Now you what is seeding, let's try to create your first seeder
+## Applying Seeding
+
+Now that know you what is seeding, let's try to create your first seeder.
 
 I assume that you already created your Laravel project and configure the connection for your preferred database. If you haven't created your `Laravel project` you start by following this command below: 
 
-**Create Laravel project:**
+**Create Laravel Project**
 
 ```
 composer create-project laravel/laravel [project_name]
 ```
 
-**Change directory:**
+**Change Directory:**
 
 ```
 cd /.../[project_name]
 ```
 
-******Let's try if you can use PHP artisan command:**
+**Let's try if you can use PHP artisan command:**
 
 ```
 php artisan list
@@ -72,21 +75,21 @@ After running the command `php artisan list` it will show you the all the comman
 
 I am assuming that you can connect with your preferred database, if you haven't you can configure your connection on your `.env` file in your Laravel project.
 
-**Sample code:**
+**Sample Code:**
 
 <img src="{{ site.baseurl }}/assets/images/jdayuday_laravel_seed_1.png" alt="new migration file" width="1500px">
 
 <br>
 
 
-## Laravel seeding 
+## Laravel Seeding 
 Now that you created your fresh Laravel project we will proceed with creating and running seeders in your Laravel project
 
 In your Laravel project, you have the capability to seed your database with data using seed classes. Laravel project store your seed classes inside the `database/seeders` directory. 
 
 <br>
 
-## Writing seeders
+## Writing Seeders
 In writing seeders in laravel your need to the following:
 - Using model factories
 - Call seeders
@@ -175,7 +178,7 @@ Sample:
 
 <br>
 
-## Model factories 
+## Model Factories 
 As a developer it is not efficient to manually specify the attributes of your seeder class. What we can do is we can utilize Laravel model factories which automatically generate of database records for you.
 
 Follow the command below to  generate your custom `factory`:
@@ -229,7 +232,7 @@ Sample:
 
 As you can observe we are using the `UserFactory` in your `database/Factories` directory, if you notice inside the `run()` method we are calling User model from you `app/Models`. What does those model do? eloquent models set the attributes for your database table.
 
-### List of model attribute available in Laravel:
+### Model Attribute Available in Laravel:
 - sdds
 
 <br>
@@ -246,7 +249,7 @@ Your database should be seeded with data depends on what is the size you specify
 
 <br>
 
-## Running multiple seed classes
+## Running Multiple Seed Classes
 
 To run multiple seeder classes at one seeder class you need to utilize the call function in your project which will execute the other seeder classes that you want to run. The call method accepts an array of seeder, follow the command below:
 
@@ -282,8 +285,8 @@ In this way, you can execute `multiple seeders` in one seeder class.
 
 <br>
 
-## Muting model events
-### What is a model? how model affect our seeders in general? 
+## Muting Model Events
+### What is a Model? How Model affect our Seeders in general? 
 
 In Laravel, when you will use an `object-relational mapper (ORM)` which enables able you to interact with your database. When you are using Laravel eloquent, each of your database tables has its corresponding model and model events, which is used to interact with your table. The usage of the model in Laravel allows you to execute database commands such as insert, update and delete in your database tables.
 
@@ -303,7 +306,7 @@ After muting the models in your seeder class, you can try to execute your seeder
 
 <br>
 
-## Additional information in running your seeders
+## Additional Information in Running Seeders
 In running your seeder we demonstrated the command on how you can execute your seeder class, but you can also use `migrate:fresh` command with  `--seed` option.
 What does it do? `migrate:fresh` command will drop all tables and re-run all of your database migrations. This is useful when you are trying to rebuild your database tables.
 
@@ -327,10 +330,8 @@ note: It is not advisable to force your command.
 
 <br>
 
-## Difference between seeding and migrations
+## Difference Between Seeding and Migrations
 
 Seeding, in general, is a database utility that offers you to easily populate your database table with random data automatically, the purpose of seeding is to make developers easily test the database tables. Using seeder allows you as a developer to detect bugs and optimize the performance of your database. On the other hand, Laravel migration/migration, in general, is a way for devlopers to handle data from the database, which offers better capability the only seeding itself, migrations are designed to handle the creation of tables, adding and modifying your database schema and tables columns.
-
-
 
 
