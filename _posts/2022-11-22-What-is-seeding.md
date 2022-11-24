@@ -232,9 +232,6 @@ Sample:
 
 As you can observe we are using the `UserFactory` in your `database/Factories` directory, if you notice inside the `run()` method we are calling User model from you `app/Models`. What does those model do? eloquent models set the attributes for your database table.
 
-### Model Attribute Available in Laravel:
-- sdds
-
 <br>
 
 After that, run the command calling your seeder class:
@@ -244,7 +241,7 @@ php artisan db:seed --class=[class name]
 
 ```
 
-Your database should be seeded with data depends on what is the size you specify in your count method for your `factory()` method.
+Your database should be seeded with data depends on what is the size you specify in your `count()` method for your `factory()` method.
 
 
 <br>
@@ -326,7 +323,7 @@ Here how can you force execute your command seeder :
 ```
 php artisan db:seed  --seeder=[seeder_name] -force
 ```
-note: It is not advisable to force your command.
+
 
 <br>
 
@@ -334,4 +331,8 @@ note: It is not advisable to force your command.
 
 Seeding, in general, is a database utility that offers you to easily populate your database table with random data automatically, the purpose of seeding is to make developers easily test the database tables. Using seeder allows you as a developer to detect bugs and optimize the performance of your database. On the other hand, Laravel migration/migration, in general, is a way for devlopers to handle data from the database, which offers better capability the only seeding itself, migrations are designed to handle the creation of tables, adding and modifying your database schema and tables columns.
 
+<br>
 
+## Summary
+
+To sum it all up, Using seeding is one of the database utilities that you can use to make your testing and database efficient and bug-free. Instead of working on production data which may cause problems and security issues (client privacy data), by using the faker PHP library, you will be able to test dummy data for your database.
