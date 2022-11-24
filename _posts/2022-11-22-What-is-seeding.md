@@ -9,9 +9,11 @@ categories:
 image: assets/images/jdayuday_laravel_seed_7.png
 ---
 
-Web application frameworks  according to GeeksforGeeks as "a software framework that is meant to assist the creation of web applications including web services, web resources, and web APIs." In layman's terms, web frameworks are pieces of software that allow you to design and execute web applications. As a result, you don't have to write on your own and hunt for any errors and miscalculations.
+Web application frameworks  according to **GeeksforGeeks** as "a software framework that is meant to assist the creation of web applications including web services, web resources, and web APIs." In layman's terms, web frameworks are pieces of software that allow you to design and execute web applications. As a result, you don't have to write on your own and hunt for any errors and miscalculations.
 
 Web frameworks were established in the early days of web app development as a way to eliminate hand-coding of apps where only the creator of a specific app could update it. The advancement of web development now we have web-specific languages that allow developers to solve altering the structure of an app has been overcome by the emergence of general performance. In this article, we are going to focus on the Laravel web application framework specifically for **Laravel seeding**
+
+<br>
 
 ## Laravel php web application framework
 Laravel is a reliable and simple-to-use open-source PHP framework. It adheres to the model-view-controller pattern of design. Laravel makes use of pre-existing parts from other frameworks to build online applications. The resulting web application is more organized and practical.
@@ -20,16 +22,28 @@ Incorporating the fundamental components of PHP frameworks like CodeIgniter and 
 
 <br>
 
-## Laravel seeding
-**What is seeding?** To make it simple Data seeding is the process of populating a database with an initial set of data.
-
-In Laravel December 24, 2020. Database seeding is the process of populating data tables with fictitious data. This procedure is used by developers for testing. Using seeder classes, Laravel allows you to fill data tables with test data. The database/seeds directory contains all seeder classes.
-
-Laravel offers the ability to use seed classes to populate your database with data. The database/seeders directory contains all seed classes. 
+## Objectives
+- You will learn what is seeding
+- What is the importance of seeding in development
+- How to  create/generate dummy data for your database table using seeder and Faker
+- Know the difference between seeding and migration
 
 <br>
 
-## Now you what is seeding, let's try a little demonstration for seeding
+## Laravel seeding
+**What is seeding?** To make it simple Data seeding is the process of populating a database with an initial set of data.
+
+In Laravel December 24, 2020. Database seeding is the process of populating data tables with fictitious data. This procedure is used by developers for testing. Using seeder classes, Laravel allows you to fill data tables with test data. The database/seeds directory contains all seeder classes. Laravel offers the ability to use seed classes to populate your database with data. The database/seeders directory contains all seed classes. 
+
+<br>
+
+## Importance of seeding for development
+In the development process, it is crucial for software developers to use production data as the initial data set for their software applications. Data security and privacy are important for the client, to solve this problem data seeding was introduced to developers, this type of mechanism can make testing for performance and database management **efficient and accurate**.
+
+
+<br>
+
+## Now you what is seeding, let's try to create your first seeder
 
 I assume that you already created your Laravel project and configure the connection for your preferred database. If you haven't created your `Laravel project` you start by following this command below: 
 
@@ -45,7 +59,7 @@ composer create-project laravel/laravel [project_name]
 cd /.../[project_name]
 ```
 
-**Let's try if you can use PHP artisan command:**
+******Let's try if you can use PHP artisan command:**
 
 ```
 php artisan list
@@ -69,6 +83,8 @@ I am assuming that you can connect with your preferred database, if you haven't 
 Now that you created your fresh Laravel project we will proceed with creating and running seeders in your Laravel project
 
 In your Laravel project, you have the capability to seed your database with data using seed classes. Laravel project store your seed classes inside the `database/seeders` directory. 
+
+<br>
 
 ## Writing seeders
 In writing seeders in laravel your need to the following:
@@ -98,16 +114,27 @@ php artisan list
 
 In your `run() method` you can try to insert this following code:
 
-
 ```
+<?php
+
+namespace Database\Seeders;
+
+use Database\Factories\UserFactory;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
-```
+use App\Models\User;
 
-```
- public function run()
+class UserSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
     {
         for($i = 0; $i <10; $i++){
             DB::table('users')->insert([
@@ -117,16 +144,10 @@ use Illuminate\Support\Str;
             ]);
         }
     }
+}
+
 ```
-
-<br>
 Your run method inside the seeder class that you created should look like this by now.
-
-<br>
-
-Sample: 
-
-<img src="{{ site.baseurl }}/assets/images/jdayuday_laravel_seed_2.png" alt="new migration file" width="1500px">
 
 **What does this code do? In this snippet code we are seeding our user's table 10 random data for `name, email and password`**
 
@@ -145,8 +166,7 @@ php artisan db:seed --class=[class name]
 ```
 With command, you are able to seed your database `users` table.
 
-
-After you are able to successfully execute the `php artisan db:seed` if you check your database, your database should have a table named `users` with 10 row of data.
+After you are able to successfully execute the `php artisan db:seed`, if you check your database, your database should have a table named `users` with 10 row of data.
 
 Sample: 
 
@@ -191,7 +211,7 @@ In our factory, we are going to utilize `Faker PHP library` which can use to gen
 - File
 
 
-Let's try to use our UserFactory sample to seed 100 data for user tables.
+Let's try to use our `UserFactory` sample to seed 100 data for user tables.
 
 Replace the inside of your `run()` in your seeder with this:
 
@@ -201,7 +221,20 @@ Replace the inside of your `run()` in your seeder with this:
             ->create();
 ```
 
-run the command calling your seeder class:
+Your `run()` should look like this:
+
+Sample:
+
+<img src="{{ site.baseurl }}/assets/images/jdayuday_laravel_seed_8.png" alt="new migration file" width="1500px">
+
+As you can observe we are using the `UserFactory` in your `database/Factories` directory, if you notice inside the `run()` method we are calling User model from you `app/Models`. What does those model do? eloquent models set the attributes for your database table.
+
+### List of model attribute available in Laravel:
+- sdds
+
+<br>
+
+After that, run the command calling your seeder class:
 
 ```
 php artisan db:seed --class=[class name]
@@ -224,7 +257,7 @@ php artisan db:seed --class=[class name]
 
 ```
 
-After tha, in the run method we are going to use the call method to execute our seeders:
+After that, in the run method we are going to use the call method to execute our seeders:
 
 
 ```
@@ -249,10 +282,54 @@ In this way, you can execute `multiple seeders` in one seeder class.
 
 <br>
 
-## Conclusion
+## Muting model events
+### What is a model? how model affect our seeders in general? 
 
-In your, Laravel project choosing between two ways of handling your database table data, can be difficult. To answer this question, it depends on what is your project's current state and needs. Both are powerful database utilities that you can use. If you are looking for a way to casually populate/seed your database table you can use seeder if you want to test your fresh Laravel project. Migrations, on the other hand, are another way of handling your data from the database, which offers better capability the only seeding itself, migrations are designed to handle the creation of tables, adding and modifying your database schema and tables columns.
+In Laravel, when you will use an `object-relational mapper (ORM)` which enables able you to interact with your database. When you are using Laravel eloquent, each of your database tables has its corresponding model and model events, which is used to interact with your table. The usage of the model in Laravel allows you to execute database commands such as insert, update and delete in your database tables.
 
+Unlike migrations which we can utilize Laravel models for now, in this article, we are only going to focus on seeders and seeding in general so what we can do to avoid your seeders utilizing models is mute them when you run your seeders `run()` method.
+
+In muting models events, you can add this code inside your seeder class:
+
+```
+use WithoutModelEvents;
+```
+
+Sample:
+
+<img src="{{ site.baseurl }}/assets/images/jdayuday_laravel_seed_9.png" alt="new migration file" width="800px">
+
+After muting the models in your seeder class, you can try to execute your seeder class.
+
+<br>
+
+## Additional information in running your seeders
+In running your seeder we demonstrated the command on how you can execute your seeder class, but you can also use `migrate:fresh` command with  `--seed` option.
+What does it do? `migrate:fresh` command will drop all tables and re-run all of your database migrations. This is useful when you are trying to rebuild your database tables.
+
+```
+php artisan migrate:fresh --seed
+```
+
+or you can specify the seeder class you want to execute using this:
+
+```
+php artisan migrate:fresh --seed --seeder=[seeder_name]
+```
+
+Soon you will encounter a prompt message which prohibits you to execute seeding in your database, this happens when you are about to alter, or you may lose data executing the specific command. 
+Here how can you force execute your command seeder : 
+
+```
+php artisan db:seed  --seeder=[seeder_name] -force
+```
+note: It is not advisable to force your command.
+
+<br>
+
+## Difference between seeding and migrations
+
+Seeding, in general, is a database utility that offers you to easily populate your database table with random data automatically, the purpose of seeding is to make developers easily test the database tables. Using seeder allows you as a developer to detect bugs and optimize the performance of your database. On the other hand, Laravel migration/migration, in general, is a way for devlopers to handle data from the database, which offers better capability the only seeding itself, migrations are designed to handle the creation of tables, adding and modifying your database schema and tables columns.
 
 
 
