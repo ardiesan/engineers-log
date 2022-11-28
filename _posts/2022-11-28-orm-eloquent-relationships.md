@@ -38,7 +38,7 @@ It serves as a layer of abstraction on top of the database engine utilized to st
 The process of interacting with database tables is made easier by Eloquent, which offers an object-oriented method for adding, updating, and removing database entries as well as a streamlined interface for running sophisticated SQL queries.
 
 
-There are various features Eloquent offers such as Models, Relationships, collections, etc. However, in this article, we will focus more on Eloquent Relationships. 
+There are various features Eloquent offers such as models, relationships, collections, etc. However, in this article, we will focus more on Eloquent Relationships. 
 A prerequisite for eloquent relationships is `Model`. To know and learn about Eloquent Model check laravel page: [Eloquent Model - Laravel](https://laravel.com/docs/9.x/eloquent).
 
 ### What are database relationships?
@@ -46,7 +46,7 @@ A prerequisite for eloquent relationships is `Model`. To know and learn about El
 To better understand, let us first learn **what exactly is a relationship?**
 A relationship, in database, means that two or more tables in the schema are related to each other.
 This is done by creating a foreign key column to table_no.2 that reference a column (most likely its primary key) of table_no.1.
-For example, you have a `students` table, and each user is enrolled to multiple `subjects`. How would you connect the two?
+For example, you have a `students` table, and each student is enrolled to multiple `subjects`. How would you connect the two?
 Usually this is done by adding a `student_id` column in the `subjects` table, so that you can easily identify that a student is enrolled to a specific subject.
 This connection that allows you to easily figure out which record is connected to another, is called **"Relationship"**.
 
@@ -104,8 +104,7 @@ Once the relationship has been established, we can use the `comments` property o
 
 ### 3. Many to Many
 Much more complex than `hasOne` and `hasMany` relationships are `many-to-many` relationships.
-An example of such a relationship is a user with many roles, where the roles are also shared by other users.     
-For instance, a lot of users might hold the "Admin" role. 
+An example of such a relationship is a user with many roles, where the roles are also shared by other users. For instance, a lot of users might hold the "Admin" role. 
 `Users`, `roles`, and `role_user` are the three database tables required to define this relationship. 
 The `user_id` and `role_id` columns are found in the `role_user` table, which was created using the eloquent model names in alphabetical order.
 
@@ -113,7 +112,7 @@ You might be thinking, **what is the purpose of the third table, "role_user"?**
 
 Consider the following `many-to-many` relationship: each `User` can have many `Roles`, e.g. a user can be an `admin` and `editor` at the same time, and each role can belong to multiple `Users`.
 What can we do with it? We cannot just add a role_id on the users table, because there are potentially multiple roles. And neither can we add a user_id on the Role model, because there are potentially multiple users as well.
-We require some form of intermediary table to correct this. The name of this intermediary table is a **"pivot table"**, and in most instances, its only purpose is to store two ids in the same row.
+To fix this, we require some form of intermediary table. The name of this intermediary table is a **"pivot table"**, and in most instances, its only purpose is to store two ids in the same row.
 
 In our `Pivot Table`: `role_user`, we add columns: `id`, `user_id`, and `role_id`. Both `user_id` and `role_id` are foreign keys that reference to tables: `Users and Roles`.
 
