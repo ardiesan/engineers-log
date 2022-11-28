@@ -9,9 +9,6 @@ categories:
 - templating
 image: assets/images/jdayuday_blade_1.png
 ---
-
-<br>
-
 As the web got faster and better, the user started to want better-looking website designs that they can interact with. What makes a website great? how does this affect the user volume of your website? we already know that building a usable and functional website is hard especially if you are building it from scratch.
 
 Back in the day web designing was only focused on the web itself, however, as the internet evolve we developers started to create new ways of building a functional website. Utilizing tools and frameworks that are meant to aid the hardships in developing a functional website. In this article, we will focus on the blade a simple yet powerful templating engine that was developed for PHP.
@@ -93,7 +90,7 @@ Every blade file end with a must-have extension of `blade.php`. You can create y
 
 <br>
 
-<span style="color:orange">Create a route for your blade file: </span>
+**Create a route for your blade file:**
 
 
 ```
@@ -115,7 +112,7 @@ It should look like this by:
 <br>
 <br>
 
-### <span style="color:orange">Displaying data with blade</span>
+### Displaying data with blade
 
 Displaying data in you using your blade file, you can wrap your variable using curly brackets `{{ [variableName] }}`
 
@@ -260,17 +257,72 @@ The loop variable can be used, you are using for each loop inside of your loop, 
 
 | Property              | Description                                               |
 | --- | ----------- |
-| $loop->index          | The index of the current loop iteration (starts at 0).    |
-| $loop->iteration	    | The current loop iteration (starts at 1).                 |
-| $loop->remaining	    | The iterations remaining in the loop.                     |
-| $loop->count	        | The total number of items in the array being iterated.    |
-| $loop->first	        | Whether this is the first iteration through the loop.     |
-| $loop->last	        | Whether this is the last iteration through the loop.      |
-| $loop->even	        | Whether this is an even iteration through the loop.       |
-| $loop->odd	        | Whether this is an odd iteration through the loop.        |
-| $loop->depth	        | The nesting level of the current loop.                    |
-| $loop->parent	        | When in a nested loop, the parent's loop variable.        |
+| $loop->index            |   The index of the current loop iteration (starts at 0).    |
+| $loop->iteration	      |   The current loop iteration (starts at 1).                 |
+| $loop->remaining	      |   The iterations remaining in the loop.                     |
+| $loop->count	          |   The total number of items in the array being iterated.    |
+| $loop->first	          |   Whether this is the first iteration through the loop.     |
+| $loop->last	          |   Whether this is the last iteration through the loop.      |
+| $loop->even	          |   Whether this is an even iteration through the loop.       |
+| $loop->odd	          |   Whether this is an odd iteration through the loop.        |
+| $loop->depth	          |   The nesting level of the current loop.                    |
+| $loop->parent	          |   When in a nested loop, the parent's loop variable.        |
         
+
+<br>
+
+## Blade conditional classes
+
+### list of conditional classes that you can use in blade
+
+| Conditional classes      | Description |
+| ----------- | ----------- |
+| @class      | directive conditionally compiles a CSS class string. Accepts an array of classes where the array key contains the class or classes you want to add        |
+| @checked   | Indicate if a given HTML checkbox input is "checked". This directive will echo checked if the provided condition evaluates to true        |
+| @selected   | Used to indicate if a given select option should be "selected"        |
+| @disabled   | Used to indicate if a given element should be "disabled"        |
+| @readonly   | Used to indicate if a given element should be "readonly"        |
+| @required   | Used to indicate if a given element should be "required"        |
+
+
+<br>
+
+### Samples implementation
+
+`@class`
+
+```
+@php
+    $isActive = true;
+    $hasError = true;
+@endphp
+ 
+<span @class([
+    'p-4',
+    'font-bold' => $isActive,
+    'text-red-500' => ! $isActive,
+    'bg-red' => $hasError,
+])></span>
+ 
+```
+
+<br>
+
+`@checked`
+
+```
+@php
+    $user = 'active';
+@endphp
+
+<input type="checkbox"
+        name="active"
+        id="checked"
+        value="active"
+        @checked(old('active', $user)) />
+```
+
+This `@checked` will return evaluates if the checkbox was checked then it will return true or false otherwise. If you want to know about blade conditional classes you can try searching on the web and try to implement it yourself.
 
 
 <br>
@@ -321,7 +373,7 @@ To utilize your import let's edit your `sample-blade`. In your blade file. remov
 <div>
     <center>
 
-        <h1>Custest dog breeds in world!</h1>
+        <h1>Display user information</h1>
         <br>
         <br>
         <table class="class">
@@ -424,11 +476,11 @@ It should look like this by now.
 
 <br>
 
-### Additionaly, here the other layout inheritance for blade directives that you can use.
+### Additionally, here the other layout inheritance for blade directives that you can use.
 
 <br>
 
-| Blade directive       | Description |
+| Layout inheritance directives       | Description |
 | ----------- | ----------- |
 | @extends      | specify which layout the child view should "inherit"       |
 | @section   | Views which extend a Blade layout may inject content into the layout's sections        |
