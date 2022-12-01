@@ -17,9 +17,7 @@ Developers have named various things in their code using different `case types` 
 <br>
 
 ## what are programming letter cases
-While some case types are uncommon in spoken speech, they are often applied in computer programming.
-
-Programmatically, the letter cases in programming languages are parsed. They often use basic whitespace, like tabs, newlines, and space characters, to demarcate their syntactic tokens. When the number of tokens, such as function and variable names, increases during the development of complicated software. It is necessary to maintain the source code understandable by humans, and naming conventions that enable this.
+While some case types are uncommon in spoken speech, they are often applied in computer programming. Programmatically, the letter cases in programming languages are parsed. They often use basic whitespace, like tabs, newlines, and space characters, to demarcate their syntactic tokens. When the number of tokens, such as function and variable names, increases during the development of complicated software. It is necessary to maintain the source code understandable by humans, and naming conventions that enable this.
 
 <br>
 
@@ -75,7 +73,7 @@ As a developer when coding in the project, for your contribution to be called `b
 For you to have beautiful code, you must consider the following guidelines set for PHP developers.
 
 -  PSR-2 code formatting.
--  Nearly all PHP files in Flow have exactly one class and produce nothing when called directly. Therefore you start your file with a `<?php` tag and must not end it with the closing `?>`.
+-  Nearly all PHP files in Flow have exactly one class and produce nothing when called directly. Therefore, you start your file with a `<?php` tag and must not end it with the closing `?>`.
 -  PHP developers prefer strict typing, so files should contain a `declare(strict_types=1);` statement. In the strict mode, PHP expects the values with the type matching with the target types. If there’s a mismatch, PHP will issue an error.
 -  A header containing namespace and license information is required for each file.
 
@@ -184,7 +182,6 @@ Example:
  */
 class Super{
 }
-
 ```
 <br>
 
@@ -265,7 +262,7 @@ class Circle{
 <br>
 
 ## Importing Namespaces
-When importing the namespace using the `use` statement makes your code more readable and you refer to other classes or interfaces, you should do so. For each imported namespace, there is one use statement per line.
+When importing the namespace using the `use` statement makes your code more readable, and you refer to other classes or interfaces, you should do so. For each imported namespace, there is one use statement per line.
 Additionally, it is advisable to alphabetically order your imported namespaces.
 
 Example:
@@ -343,10 +340,10 @@ List of benefits of using a naming convention for your PHP projects, not just PH
 - To allow code quality review tools to concentrate their reporting primarily on important issues other than syntax and style preferences.
 
 
-## Summarry
-To make it simple the importance of naming convention as a developer. I've mentioned above many times it lessens other developer time in understanding and reading your code, especially for those newcomers, which will be onboarding on your projects.
+## Summary
+To make it simple the importance of naming convention as a developer. I've mentioned above many times it lessens other developer time in understanding and reading your code, especially for those newcomers, which will be boarding on your projects.
 
-It is important to follow certain guidelines which will enable you and other developers in your team to produce better and quality code. Additionally, many companies already have their code guidelines and it's best practice to follow those guidelines for you to contribute quality code.
+It is important to follow certain guidelines which will enable you and other developers in your team to produce better and quality code. Additionally, many companies already have their code guidelines, and it's best practice to follow those guidelines for you to contribute quality code.
 
 <br>
 
