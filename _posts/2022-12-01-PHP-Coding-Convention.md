@@ -4,8 +4,8 @@ title: "PHP Coding Convention"
 author: jdayuday
 categories:
 - internship
-- php
-image: assets/images/jdayuday-naming-convention_1.png
+- php 
+image: assets/images/jdayuday-naming-convention-1.png
 ---
 In programming, there are a lot of traditions in addition to the set of guidelines that each programming language provides, but the vast majority of software developers around the world agree with these sets of standards.
 
@@ -32,8 +32,6 @@ What is a camel case? In using `camel case`, you begin a name with a small lette
 
 `Example of camel cases: greetings and firstName`
 
-
-<br>
 
 ### Snake case
 
@@ -69,7 +67,7 @@ The way some problems are addressed programmatically is also crucial. Personalit
 
 In coding with PHP, you have to follow the standard guidelines for your code to be readable and easy to understand by another developer (if you are working with a team).
 
-### Here's how!
+## Here's how!
 
 ### Code format and layout
 As a developer when coding in the project, for your contribution to be called `beautiful code` you first must follow the visual guidelines which means your code must look similar to other developers working on the same project.
@@ -126,7 +124,7 @@ $last_name = “Banner”; // Right
 
 ```
 
-What have you noticed? what's wrong with `$n1 and $n2`? As I've mentioned above it is best practice when dealing with variables, it is important to be descriptive as possible, in that other developers will immediately understand what is the relation of your code to the declared variable.
+What have you noticed? what's wrong with `$n1 and $n2`? As I've mentioned above it is best practice when dealing with variables, it is important to be descriptive as possible, in that other developers will immediately understand what your variable do the code.
 
 Let's try other example that you can relate:
 
