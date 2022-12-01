@@ -24,7 +24,7 @@ Programmatically, the letter cases in programming languages are parsed. They oft
 <br>
 
 ## Popular programming letter cases
-As we've talk about programmers uses standard and proper naming convention in different language and projects, these are the most popular and used by programmers right now.
+As we've talked about programmers using standard and proper naming conventions in different languages and projects, these are the most popular and used by programmers right now.
 
 ### Camel case
 
@@ -35,7 +35,7 @@ What is a camel case? In using `camel case`, you begin a name with a small lette
 
 ### Snake case
 
-Similar to the camel case, snake case names begin with a small letter. If the name consists of more than one word, the later words should all begin with tiny letters, and you should use an underscore `_` to separate them.
+Similar to the camel case, snake case names begin with small letters. If the name consists of more than one word, the later words should all begin with tiny letters, and you should use an underscore `_` to separate them.
 
 `Example of snake case: create_table_user or delete_table_user`
 
@@ -63,7 +63,7 @@ What is the naming convention for a programmer? A set of guidelines known as nam
 ## PHP naming convention
 Now you know what is naming convention let's tackle PHP naming conventions. Coding Standards are crucial for producing high-quality code. We may create a homogeneous code that is simple to understand and maintain by using a uniform visual style, naming standards, and other technical parameters. Rules and code requirements, however, cannot account for all significant aspects.
 
-The way some problems are addressed programmatically is also crucial. Personality and expertise of the particular developer come through and eventually determine whether the code is technically sound or represents a mature, well-thought-out solution.
+The way some problems are addressed programmatically is also crucial. The personality and expertise of the particular developer come through and eventually determine whether the code is technically sound or represents a mature, well-thought-out solution.
 
 In coding with PHP, you have to follow the standard guidelines for your code to be readable and easy to understand by another developer (if you are working with a team).
 
@@ -74,10 +74,10 @@ As a developer when coding in the project, for your contribution to be called `b
 
 For you to have beautiful code, you must consider the following guidelines set for PHP developers.
 
--	PSR-2 code formatting.
--	Nearly all PHP files in Flow have exactly one class and produce nothing when called directly. Therefore you start your file with a `<?php` tag and must not end it with the closing `?>`.
--	PHP developers prefer strict typing, so files should contain a `declare(strict_types=1);` statement. In the strict mode, PHP expects the values with the type matching with the target types. If there’s a mismatch, PHP will issue an error.
--	A header containing namespace and license information is required for each file.
+-  PSR-2 code formatting.
+-  Nearly all PHP files in Flow have exactly one class and produce nothing when called directly. Therefore you start your file with a `<?php` tag and must not end it with the closing `?>`.
+-  PHP developers prefer strict typing, so files should contain a `declare(strict_types=1);` statement. In the strict mode, PHP expects the values with the type matching with the target types. If there’s a mismatch, PHP will issue an error.
+-  A header containing namespace and license information is required for each file.
 
 Sample:
 
@@ -87,7 +87,7 @@ declare(strict_types=1);
 namespace YourCompany\Package\Something\New;
 
 /*
- * This file is part of the YourCompany.Package package.
+ * This file is part of your YourCompany.Package package.
  *
  * (c) YourCompany
  *
@@ -110,7 +110,7 @@ Php variable naming convention, but first of all `what is a variable?` variable 
 
 Declaring variables in PHP, most developers use snake cases for declaring their PHP variables.
 
-**Example how variable implemented in PHP:**
+**Example of how variable implemented in PHP:**
 
 ```
 $n1 = “Ana”; // Wrong  
@@ -124,9 +124,9 @@ $last_name = “Banner”; // Right
 
 ```
 
-What have you noticed? what's wrong with `$n1 and $n2`? As I've mentioned above it is best practice when dealing with variables, it is important to be descriptive as possible, in that other developers will immediately understand what your variable do the code.
+What have you noticed? what's wrong with `$n1 and $n2`? As I've mentioned above it is best practice when dealing with variables, it is important to be descriptive as possible, in that other developers will immediately understand what your variable does in the code.
 
-Let's try other example that you can relate:
+Let's try another example that you can relate to:
 
 ```
 $i = “Laptop AcerNitro 5 (8GB, 500GB, 3050Ti)”; 
@@ -135,7 +135,7 @@ $d = "10.00";
 $t = “810.00”;
 ```
 
-As a developer, let's pretend that this is your first time seeing this code, will you be able to know what are things stored in each variable? The answer is not, as for other developers that you will be working with, it is not helpful and your contribution may be disregarded.
+As a developer, let's pretend that this is your first time seeing this code, will you be able to know what are things stored in each variable? The answer is no, as for other developers that you will be working with, it is not helpful and your contribution may be disregarded.
 
 Let's try again, but this time let's make it as descriptive as possible for the variable purpose.
 
@@ -148,7 +148,7 @@ $total = “810.00”;
 
 Can you see the difference? It is clear that by just properly defining variables correctly it is much easier to understand.
 
-Additional information for variable when working with Strings in PHP, when declaring string variable with value in it, it is important reminder when you wan to concatenate strings, A space must be inserted before and after the dot for better readability of your code.
+Additional information for variables when working with Strings in PHP, when declaring a string variable with value in it, is an important reminder when you want to concatenate strings, A space must be inserted before and after the dot for better readability of your code.
 
 String example:
 
@@ -193,7 +193,7 @@ class Super{
 
 In defining functions in PHP, there are two of the majority of developers used: lower snake case and camel case
 
-**Example how functions implemented in PHP:**
+**Example of how functions are implemented in PHP:**
 
 Lower snake case:
 
@@ -213,9 +213,9 @@ function getName(){
 
 In declaring a function you can choose between the two shown above, but depending on your team you might just follow what case they are using when creating a function.
 
-An important reminder when you are working with a function it is important to keep in mind that a function should always start with a `verb` which basically means universally that functions are created to change the state `entity` of your program.
+An important reminder when you are working with a function it is important to keep in mind that a function should always start with a `verb` which means universally that functions are created to change the state `entity` of your program.
 
-Additional example for PHP function declaration: 
+An additional example for PHP function declaration:
 
 ```
 writeMsg() // Right
@@ -243,7 +243,7 @@ class Pet{
 ?>
 ```
 
-When you are naming a class in PHP it is advisable to use `Pascal Case` with `_` as separator, which most of the PHP developer do it.
+When you are naming a class in PHP it is advisable to use `Pascal Case` with `_` as a separator, which most PHP developers do it.
 
 Additionally, when working with variables and properties in a class it's important to remember  that both `private and protected` inside must be declared with `_` (underscore) such as:
 ```
@@ -325,7 +325,7 @@ class Pet
 which is better than the two? honestly, as I've mentioned above, it depends, on whom you are working with on your project. The k&R is designed for a compact look of code, but Allman is better for reading codes.
 
 
-## When should I use naming convention?
+## When should I use the naming convention?
 When should I use the naming convention as a programmer? The answer to that is "always" even though is it not required if you are working by yourself creating your project. Things will change if you are working with other people on the same project.
 
 I know that each of us is unique, and we come from various backgrounds. For others, one might define something very differently. More than that, various cultures have distinct ways of describing the same things.
@@ -334,9 +334,9 @@ Experience and countless hours of coding sessions and reading are necessary when
 
 <br>
 
-## Benefits fo using naming convention
+## Benefits of using a naming convention
 
-List of benefits in using naming convention to your PHP projects, not just PHP but also in other languages and projects.
+List of benefits of using a naming convention for your PHP projects, not just PHP but also in other languages and projects.
 
 - Easier to read and comprehend source code.
 - To make it possible for code reviews to concentrate on topics more crucial than syntax and naming conventions.
@@ -344,12 +344,10 @@ List of benefits in using naming convention to your PHP projects, not just PHP b
 
 
 ## Summarry
-To make it simple the importance of naming convention as a developer. I've  mentioned above many times it lessens other developer time in understanding and reading your code, especially for those newcomers, which will be onboarding on your projects.
+To make it simple the importance of naming convention as a developer. I've mentioned above many times it lessens other developer time in understanding and reading your code, especially for those newcomers, which will be onboarding on your projects.
 
 It is important to follow certain guidelines which will enable you and other developers in your team to produce better and quality code. Additionally, many companies already have their code guidelines and it's best practice to follow those guidelines for you to contribute quality code.
 
 <br>
 
 This article will be updated soon...
-
-
