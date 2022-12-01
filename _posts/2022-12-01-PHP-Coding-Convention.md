@@ -17,7 +17,9 @@ Developers have named various things in their code using different `case types` 
 <br>
 
 ## what are programming letter cases
-While some case types are uncommon in spoken speech, they are often applied in computer programming. Programmatically, the letter cases in programming languages are parsed. They often use basic whitespace, like tabs, newlines, and space characters, to demarcate their syntactic tokens. When the number of tokens, such as function and variable names, increases during the development of complicated software. It is necessary to maintain the source code understandable by humans, and naming conventions that enable this.
+While some case types are uncommon in spoken speech, they are often applied in computer programming.
+
+Programmatically, the letter cases in programming languages are parsed. They often use basic whitespace, like tabs, newlines, and space characters, to demarcate their syntactic tokens. When the number of tokens, such as function and variable names, increases during the development of complicated software. It is necessary to maintain the source code understandable by humans, and naming conventions that enable this.
 
 <br>
 
@@ -30,6 +32,8 @@ What is a camel case? In using `camel case`, you begin a name with a small lette
 
 `Example of camel cases: greetings and firstName`
 
+
+<br>
 
 ### Snake case
 
@@ -65,7 +69,7 @@ The way some problems are addressed programmatically is also crucial. The person
 
 In coding with PHP, you have to follow the standard guidelines for your code to be readable and easy to understand by another developer (if you are working with a team).
 
-## Here's how!
+### Here's how!
 
 ### Code format and layout
 As a developer when coding in the project, for your contribution to be called `beautiful code` you first must follow the visual guidelines which means your code must look similar to other developers working on the same project.
@@ -122,7 +126,7 @@ $last_name = “Banner”; // Right
 
 ```
 
-What have you noticed? what's wrong with `$n1 and $n2`? As I've mentioned above it is best practice when dealing with variables, it is important to be descriptive as possible, in that other developers will immediately understand what your variable does in the code.
+What have you noticed? what's wrong with `$n1 and $n2`? As I've mentioned above it is best practice when dealing with variables, it is important to be descriptive as possible, in that other developers will immediately understand what is the relation of your code to the declared variable.
 
 Let's try another example that you can relate to:
 
@@ -182,6 +186,7 @@ Example:
  */
 class Super{
 }
+
 ```
 <br>
 
