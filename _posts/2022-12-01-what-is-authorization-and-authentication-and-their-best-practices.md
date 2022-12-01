@@ -6,7 +6,7 @@ categories:
 - internship
 - authentication
 - authorization
-image: assets/images/authorization and authentication.png
+image: assets/images/authorization_and_authentication.png
 ---
 
 The availability of today's applications via several networks and connection to the cloud increase their vulnerability to security threats and breaches, making security a crucial issue. There is increasing pressure to ensure application-level security. 
