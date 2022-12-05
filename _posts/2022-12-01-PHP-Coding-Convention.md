@@ -350,10 +350,6 @@ To make it simple the importance of naming convention as a developer. I've menti
 
 It is important to follow certain guidelines which will enable you and other developers in your team to produce better and quality code. Additionally, many companies already have their code guidelines, and it's best practice to follow those guidelines for you to contribute quality code.
 
-<br>
-<br>
-
-### This article will be updated soon...
 
 
 
