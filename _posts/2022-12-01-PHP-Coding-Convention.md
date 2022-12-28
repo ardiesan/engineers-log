@@ -5,7 +5,7 @@ author: jdayuday
 categories:
 - internship
 - php
-image: assets/images/jdayuday-naming-convention_1.png
+image: assets/images/jdayuday-naming-convention-1.png
 ---
 In programming, there are a lot of traditions in addition to the set of guidelines that each programming language provides, but the vast majority of software developers around the world agree with these sets of standards.
 
