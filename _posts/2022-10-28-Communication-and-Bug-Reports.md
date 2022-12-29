@@ -4,20 +4,21 @@ title: "Communication and Bug Reports - Be Calm"
 author: jdayuday
 categories: 
 - internship
+image: assets/images/jdayuday-communication-bug-report-1.png
 ---
 
-Here are some of the things that I've done as a software engineer intern at FULLSPEED TECHNOLOGIES INC. On my first initial week at FULLSPEED, I started my day with a virtual meeting with one of the admins for social media specialists, in this meeting I had learn about the company's background in software consultations, Digital marketing, and offshore development.
+As a software engineer intern at FULLSPEED TECHNOLOGIES INC, I have had the opportunity to learn about the company's background. During my first week at the company, I had a virtual meeting with one of the admins for social media specialists. In this meeting, I learned about the company's background in software consulting, digital marketing, and offshore development.
 
 ## Effective Communication
 
-In the following topic, I was able to know the organizational structure of the company and its mission and its vision. At FULLSPEED at end of every month, the company has a monthly knowledge sharing in which employees can share their knowledge with the team. During this time I was invited to another meeting for the introduction to the team/department to that I will belong (Titan department). The Titan department is one of the development departments in the company.
+In the following topic, I was able to know the organizational structure of the company and its mission and its vision. At FULLSPEED at end of every month, the company has a monthly knowledge sharing in which employees can share their knowledge with the team. During this time I was invited to another meeting for the introduction to the team/department that I will belong (Ronin department). The Ronin department is one of the development departments in the company.
 
-In this particular virtual, we talk about the department goals which are :
+In this particular virtual meeting, we talk about the department goals which are :
 - Project delivery
 - Productivity
 - Quality
 
-Have you noticed that these three goals are not being numbered/ordered? in the department goals these three goals are treated as equal while the focus of the Titan department core values is: 
+Have you noticed that these three goals are not being numbered/ordered? in the department goals these three goals are treated as equal while the focus of the Ronin department core values is: 
 
 - Trust and Respect
 - Teamwork
@@ -48,4 +49,4 @@ The next reading I had was about how to ask good questions and report a bug. in 
 
 As mentioned above, you need to do those things first Before asking a technical question by e-mail, in a newsgroup, or on a website chat board, it is important to consider which forum you will be posting/asking your question.
 
-Lastly, last week we were assigned to do the readings regarding how to report a bug effectively in this reading I learned some important things to consider when reporting a bug. It is very important when you encounter a bug, it should be documented and detailed for the programmer/developers to make it fail again. Additionally, the user needs to be calm when bugs occur, it is important to stop and calm.
+Last week, we were assigned to read about how to effectively report a bug. Through this reading, I learned the importance of documenting and detailing a bug when it is encountered. By providing thorough information about the bug, programmers and developers can reproduce the issue and work on a solution. It is also important for users to remain calm and collected when a bug occurs. Taking a moment to pause and calm down can help to ensure that the bug is reported clearly and accurately.
