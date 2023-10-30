@@ -5,7 +5,7 @@ author: raya-ay
 categories: 
 - internship
 - livewire
-- image: assets/images/5th-week.png
+image: assets/images/5th-week.png
 ---
 
 # Happy Monthsary!
