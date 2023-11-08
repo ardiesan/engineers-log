@@ -11,6 +11,10 @@ categories:
 image: assets/images/proj-journey-collab.png
 ---
 
+This is a collaborative article made by us three interns of Fullspeed in which we decided to talk about our introduction and experiences to the world of programming!
+
+---
+
 # Miguel Trinidad
 ### My IT Journey: Overcoming Challenges and Embracing Opportunities
 ---

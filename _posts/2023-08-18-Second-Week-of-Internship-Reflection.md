@@ -4,6 +4,7 @@ title: "Second week of Internship: Reflection"
 author: jwapano
 categories: 
 - internship
+image: assets/images/wapano-second-week.jpg
 ---
 During my second week as an intern with the company, I gained valuable knowledge about software development and the tools and technologies my mentor instructed us to set up and install. These included Github, JIRA, Docker, MySQL Workbench, and Laravel Sail. Additionally, I really appreciated how our mentor took the time to teach us a little bit about networking and provided us with various tips and tricks, such as different commands on how to use the Terminal/CLI when it comes to accessing, troubleshooting, and modifying things. Overall, I can feel my confidence is building up as a developer thanks to the knowledge and guidance provided by my mentor. Here's a brief reflection on my week's experiences.
 

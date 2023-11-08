@@ -4,6 +4,7 @@ title: "Third week of Internship: Reflection"
 author: jwapano
 categories: 
 - internship
+image: assets/images/wapano-third-week.png
 ---
 This week has been full of learning for me. I'm excited to share that I've better-understood shell commands and Git configurations. My co-intern and I have also dug into the fst-admin-ticket-system application. This has been an excellent opportunity for us to practice our code reading skills and gain a deeper understanding of the projects we'll be working on. 
 

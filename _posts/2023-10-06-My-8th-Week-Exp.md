@@ -4,9 +4,14 @@ title: "Tales of the 8th Week Intern"
 author: raya-ay
 categories: 
 - internship
+image: assets/images/anthony/8th-week.png
 ---
 
-# Monday (2023-10-02):
+Cron Jobs! They are a way of scheduling tasks to run on your server. Cron is a service running in the background that will execute commands (jobs) at a specified time, or at a regular interval. This week was loaded with Cron job-related tasks and I am glad I got introduced to this method.
+
+---
+
+## Monday (2023-10-02)
 ---
 
 Previously, my task was to make a cron job run at a certain time however the issue is that it wont perform the command at all when the time passes. The next day, throughout the weekend, I got notifications at 6am saying that the file/directory does not exist even tho I scheduled the task to be run at 10am. This gave me the speculation that the command worked and is just that the output takes a long process. 
@@ -16,7 +21,7 @@ When I arrived at the office, I was set on solving the issue. Thanks to the help
 For the rest of the day, I dived deeper to what my task was last Friday which was Regular Expressions. It is really a powerful tool to use and I believe not many people truly appreciate how much regex has helped them as they don't even realize, at the core of it, all of searching is utilizing regex to an extent. Regex has been streamlined to the point that anyone and everyone can you it by just typing the words they want to find, without all the expressions.
 
 
-# Wednesday (2023-10-04):
+## Wednesday (2023-10-04)
 ---
 
 I began the day with reconfiguring my cronjob so that the backup will have a prefix to identify whether the backup was a weekly or a monthly snapshot. My previous application of the code is that there would only be two cron commands which runs the same script one which will be weekly, while the other would be every end of the month. 
@@ -45,7 +50,7 @@ tar -czvf $1_$timeTitle.tgz $timeTitle.sql
 In this script the argument is stored in `$1` and that is how arguments are utilized. If more arguments are necessary, they are separated with a space and in order to access them, call them from the order which they were arranged, starting from `$1` to `$n`.
 
 
-# Friday (2023-10-06):
+## Friday (2023-10-06)
 ---
 
 I started the day with starting off from where I stopped on my previous workday. It would be an application of what I have already applied regarding my cronjob. I made a bash script that will make a backup of my web application and format it to a .tgz format. Afterwards I made a cronjob that would run that that script weekly.

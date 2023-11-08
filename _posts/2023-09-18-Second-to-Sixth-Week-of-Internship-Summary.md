@@ -4,6 +4,7 @@ title: "Second - Sixth Week of Internship Summary: Reflection"
 author: jwapano
 categories:
 - internship
+image: assets/images/wapano-summary.jpg
 ---
 
 As I reflect on the events of the past few weeks in my internship, I am struck by the depth and breadth of knowledge I have gained. Each week has brought new challenges and learning opportunities, and I am grateful for the chance to grow as a software developer. 

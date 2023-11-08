@@ -4,6 +4,7 @@ title: "Learning How to Report Bugs Effectively and My Insights on The Cathedral
 author: raya-ay
 categories: 
 - internship
+image: assets/images/anthony/cathedral-bazaar.png
 ---
 
 Day one on taking this internship, after being greatefully accepted into the company, I was tasked with reading two articles and provide my thoughts of it. On my first day, already, I am facing unfamiliar technologies in an unfamiliar environment, with me having to use a mac as well as to make my reflection in markup, which I haven't done in a while. But I am enthusiastic to take this as a challenge and quickly pick it up.

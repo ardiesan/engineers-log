@@ -4,6 +4,7 @@ title: "Reflecting on the Eighth Week of My Internship"
 author: jwapano
 categories: 
 - internship
+image: assets/images/wapano-eighth-week.jpg
 ---
 This week, we were finally able to deploy our Laravel application without any problems. I've also gained valuable new knowledge about Cron and Regex expressions.
 

@@ -5,15 +5,15 @@ author: raya-ay
 categories: 
 - internship
 - livewire
-image: assets/images/5th-week.png
+image: assets/images/anthony/5th-week.png
 ---
 
-# Happy Monthsary!
+## Happy Monthsary!
 Its officially been one month since my onboarding to this company. Looking back, it felt like a long time already. I knew that this is what I would eventually be at this point, as I used to imagine years ago, but to actually be at this point gives me a feeling of relief and joy that I am moving forward in my life, slowly, but surely.
 
 --- 
 
-# Monday (2023-09-11):
+## Monday (2023-09-11):
 ---
 
 I started the day off with updating my pull requests and tickets in Jira. I was tasked to add more details to one of my tickets which was regarding an overlapping input. I was to add details on which browser I was using and which resolution my device was on, as well as, if the problem persists in other browsers. To my surprise, there was no issue when using other browsers.
@@ -26,13 +26,13 @@ I feel like this was too excessive and that there could possibly be a better met
 
 Near the end of our shift, we were tasked to explore livewire, in which I started with installing it to the project and followed the documentation on how to set it up and how to use it. However it ended with a website that was not working and I knew I could continue and success on my next work day.
 
-# Wednesday (2023-09-13)
+## Wednesday (2023-09-13)
 ---
 The day continues with exploring livewire. Instead of installing livewire and start working on it on an existing project, I decided to start on a blank canvas. I then followed the documentation again but this time the application was working. I continued my exploration on livewire by following a tutorial on youtube which held a collection of multiple projects, each exploring the cabalities and functions of livewire. Exploring livewire was a nostalgic experience. It reminded me of how I used to explore react and vue. Aside from that, it was also a refresher on laravel as a whole because, after a long while, I got to work on a laravel project as a whole and not just focusing on a single part of it. By that I mean I be making a component as well as configuring the `web.php` file for my routes and making my migrations.
 
 The weather was particularly harsh ever since noon. It was to the point that my fellow interns and I had to buy food from this block and eat in the company pantry, which was a first. I ended the day waiting an hour after my shift for the heavy rain to subside while enjoying a hot beef noodle soup with egg in  a convenience store.
 
-# Friday (2023-09-15)
+## Friday (2023-09-15)
 ---
 The last day of the week, I assume the task would be similar to what I have done in the past two work days, which was to continue exploring livewire, which I was looking forward to because there was a project that I had in mind which I wanted to explore. I have also read in forums that livewire is not an adviceable framework for beginners as it does most of the heavy work and also has a lot of "magic" done behind the scenes, away from the eyes of the programmer. As a result, it may lead the programmer to be too dependent on it and would impede on their oppurtunity to grasp and understand some concepts on what goes on into making a website. So I wanted to explore that aspect as to the strengths and weaknesses of each framework.
 

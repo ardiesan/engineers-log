@@ -5,7 +5,7 @@ author: raya-ay
 categories: 
 - internship
 - communication
-image: assets/images/2023-08-14-Being-an-Effective-Communicator.png
+image: assets/images/anthony/effective-communication.png
 ---
 
 ---

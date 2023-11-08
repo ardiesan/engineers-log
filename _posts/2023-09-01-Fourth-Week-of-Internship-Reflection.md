@@ -4,6 +4,7 @@ title: "Fourth week of Internship: Reflection"
 author: jwapano
 categories: 
 - internship
+image: assets/images/wapano-fourth-week.jpg
 ---
 During the fourth week of my internship, I experienced significant growth and development. I'm thrilled to share that we were finally assigned the task of modifying and rectifying inconsistencies within specific modules of the fst-admin-ticket-system application. Here's a brief reflection on my experiences.
 

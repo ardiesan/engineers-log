@@ -4,6 +4,7 @@ title: "Reflecting on the Ninth Week of My Internship"
 author: jwapano
 categories: 
 - internship
+image: assets/images/wapano-ninth-week.jpg
 ---
 This week, our main focus was on implementing a cron job that executes the script file for backups. It's truly a valuable opportunity to gain hands-on experience on an actual server, which not everyone gets to experience. I'm grateful, especially to my mentor.
 

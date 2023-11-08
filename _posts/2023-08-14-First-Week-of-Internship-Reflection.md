@@ -4,6 +4,7 @@ title: "First week of Internship: Reflection"
 author: jwapano
 categories: 
 - internship
+image: assets/images/wapano-first-week.jpg
 ---
 
 ## First Week Reflection:

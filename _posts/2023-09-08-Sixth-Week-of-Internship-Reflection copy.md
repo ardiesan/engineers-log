@@ -4,6 +4,7 @@ title: "Sixth week of Internship: Reflection"
 author: jwapano
 categories: 
 - internship
+image: assets/images/wapano-sixth-week.jpg
 ---
 This week, I had the opportunity to delve into Laravel Livewire, explore Git, and gain a deeper understanding of middleware. These newfound skills are valuable assets that will undoubtedly make me a better developer and enhance my ability to understand and contribute to projects effectively.
 

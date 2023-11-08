@@ -6,6 +6,7 @@ categories:
 - internship
 - git
 - communication
+image: assets/images/anthony/bug-reporting.png
 ---
 
 It has offically been two weeks since I started working here in this company, it has truly been an insightful experience compared to my previous internship years ago. This week has been packed with new concepts like git branch, checkout, protecting my commits. Because what I have used so far were only git add, git pull, and git push most of the time. 

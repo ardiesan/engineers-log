@@ -4,6 +4,7 @@ title: "Reflecting on the Seventh Week of My Internship"
 author: jwapano
 categories: 
 - internship
+image: assets/images/wapano-seventh-week.jpg
 ---
 This week, we focused on the initial deployment of our newly created Laravel project with middleware implementation. Here's how it went.
 

@@ -7,9 +7,14 @@ categories:
 - cron
 - HTMLDOM
 - CICD
+image: assets/images/anthony/9th-week.png
 ---
 
-# Monday (2023-10-09)
+Our tasks using cron jobs gave us an introduction to automating our tasks so that the server could run commands on a assigned schedule. This served as our introduction to our next topic this week, which my fellow interns and I that we had to face, Github actions and workflow. Afterwards we then revisited a beginner topic, the HTML DOM, but with the accumlated knowledge we have, I am sure we can pick up the topic faster and gain broader understanding of it.
+
+---
+
+## Monday (2023-10-09)
 ---
 
 My previous task, which I completed on my previous workday, was to make a bash script that will make a backup of my web application and format it to a .tgz format and then I made a cronjob that would run that that script weekly. My new task would be a extension of that. What I will be required to do is for the backup on the server also be available on my local device.
@@ -19,13 +24,13 @@ I spent my time rattling my brain on how to make it work. I was figuring out how
 I spent the other half of the day researching on CICD (Continuous Integration Continuous Deployment). It is a very useful practice which combines other practices continuous integration and continuous delivery or, less often, continuous deployment. Although I currently have no projects that may benefit from the implementation of this practice, I know that in the future, when I become a more skilled developer, with numerous projects on my belt, I have CI/CD as a tool for me to use to better streamline my workflows.
 
 
-# Wednesday (2023-10-11)
+## Wednesday (2023-10-11)
 ---
 
 Nothing much happened today, it was a continuation of what I did yesterday, which was to research on CICD. I also researched on Github Workflows and Actions, which is an automated CICD platform that creates seamless, versatile CI/CD pipelines in Github. I also spent my downtime improving my knowledge and skills by checking out and practicing with other technologies such as SASS, Vue, and React.
 
  
-# Friday (2023-10-13)
+## Friday (2023-10-13)
 ---
 
 Here I was tasked to read on reverse SSH and what a Poor Man's VPN is. SSH is direct secure connection to another computer so the you can control it while reverse SSH, also known as Reverse SSH tunneling or remote port forwarding, the remote system connects with your local system.

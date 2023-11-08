@@ -4,6 +4,7 @@ title: "Fifth week of Internship: Reflection"
 author: jwapano
 categories: 
 - internship
+image: assets/images/wapano-fifth-week.jpg
 ---
 In my fifth week of internship, my fellow interns and I collaborated to tackle various issues in the admin ticketing system. We were able to successfully find and fix the problems at hand. Additionally, we delved into the topic of SSH and gained a deeper understanding of it. Allow me to share what we accomplished during this time.
 
