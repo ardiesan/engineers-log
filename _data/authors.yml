@@ -60,14 +60,14 @@ gparawan:
 mtrinidad:
   full_name: Miguel Trinidad
   display_name: Migoy
-  avatar: "assets/images/avatar.png"
+  avatar: "assets/images/migoy-avatar.png"
   email: mtrinidad+noreply@example.net
   description: "A motivated, resilient, and friendly IT student from University of Cebu - Banilad paving my way to the software development industry."
 
 jwapano:
   full_name: Jade Wapano
   display_name: Jade
-  avatar: "assets/images/avatar.png"
+  avatar: "assets/images/jade-avatar.jpeg"
   email: jwapano+noreply@example.net
   description: "Jade A. Wapano, a 22 years old IT student at University of San Carlos"
 

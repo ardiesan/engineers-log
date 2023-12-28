@@ -7,12 +7,12 @@ categories:
 image: assets/images/fiveweekinternship.jpeg
 ---
 
-In my 5-week internship journey, I started by learning Middleware, Websockets, and tackled deployment challenges. It involved debugging, teamwork, and researching monthly report plugins. It was about automation and Github Actions. I explored connectivity with Reverse SSH and "Poor Man's VPN" while also experiencing GitHub Workflows. My journey was a rich mix of learning, deploying, collaborating, automating, and exploring new technologies.
+In my 5-week internship journey, I started by learning Middleware, WebSockets, and tackled deployment challenges. It involved debugging, teamwork, and researching monthly report plugins. It was about automation and GitHub Actions. I explored connectivity with Reverse SSH and "Poor Man's VPN" while also experiencing GitHub Workflows. My journey was a rich mix of learning, deploying, collaborating, automating, and exploring new technologies.
 
 ---
 ## Learning About Middleware, Websockets, and Framework Upgrades
 
-On the first day of the week, I continued my learning journey with middleware and got introduced to websockets, something new for me. Our mentor shared some really useful insights about project frameworks. They explained that in the software world, it's not always necessary to upgrade or update a project's framework. If it's still working well and meeting the project's needs, there might not be an immediate reason to make changes. It's essential to think about the time and resources required for these updates. Our mentor also treated us to coffee, we used this time to summarize our weekly reflections. It was a nice experience, even though I had to leave early for a class. This day taught me that in software development, it's not just about technical skills but also about making thoughtful decisions regarding project upgrades.
+On the first day of the week, I continued my learning journey with middleware and got introduced to WebSockets, something new for me. Our mentor shared some really useful insights about project frameworks. They explained that in the software world, it's not always necessary to upgrade or update a project's framework. If it's still working well and meeting the project's needs, there might not be an immediate reason to make changes. It's essential to think about the time and resources required for these updates. Our mentor also treated us to coffee, we used this time to summarize our weekly reflections. It was a nice experience, even though I had to leave early for a class. This day taught me that in software development, it's not just about technical skills but also about making thoughtful decisions regarding project upgrades.
 
 ## Applying Middleware Learnings and Deployment Challenges
 
@@ -20,7 +20,7 @@ This day was quite interesting. We were given a task to put our Middleware knowl
 
 ## Deployment Challenges and PHP Version Mismatch
 
-On this day, my focus was solely on deploying my application on the server. However, I ran into a task blocker while trying to execute some PHP commands on the server. The error message was pretty straightforward: "Your Composer dependencies require a PHP version >= 8.1.0, but you are running 7.4.30." This error clarified the issue - my project required PHP version 8.1, while the server was running PHP version 7.4.30. It was a classic version mismatch. After some investigation, I discovered that the server had multiple PHP versions available. So, I made the necessary adjustments to ensure my project used the PHP version it needed. With that sorted out, I was able to successfully migrate my tables to the remote database. This experience reminded me that deployment can be a tricky process, sometimes has unexpected challenges.
+On this day, my focus was solely on deploying my application on the server. However, I ran into a task blocker while trying to execute some PHP commands on the server. The error message was pretty straightforward: "Your Composer dependencies require a PHP version >= 8.1.0, but you are running 7.4.30." This error clarified the issue - my project required PHP version 8.1, while the server was running PHP version 7.4.30. It was a classic version mismatch. After some investigation, I discovered that the server had multiple PHP versions available. So, I made the necessary adjustments to ensure my project used the PHP version it needed. With that sorted out, I was able to successfully migrate my tables to the remote database. This experience reminded me that deployment can be a tricky process, and sometimes has unexpected challenges.
 
 ## Deploying Laravel App
 
@@ -41,7 +41,7 @@ In our daily stand-up meeting, our mentor also gave us an important lesson. He e
 
 ## Researching Laravel Plugins for Generating Monthly Reports
 
-Today, my task was to search for Laravel plugins that could help in generating monthly reports for our ticketing system. These reports would summarize tasks and tickets created, completed, unfinished, and carried over from the previous month. I found three valuable plugins: Laravel Excel, Laravel PDF, and Laravel Charts for Visualization. These plugins are like tools you can add to your software to make it do specific tasks more easily. In this case, they'd help create and display the monthly reports, making our ticketing system even more powerful. Today's task also reminded me of the importance of researching, it's a key skill in software development.
+Today, my task was to search for Laravel plugins that could help in generating monthly reports for our ticketing system. These reports would summarize tasks and tickets created, completed, unfinished, and carried over from the previous month. I found three valuable plugins: Laravel Excel, Laravel PDF, and Laravel Charts for Visualization. These plugins are tools we can add to your software to make it do specific tasks more easily. In this case, they'd help create and display the monthly reports, making our ticketing system even more powerful. Today's task also reminded me of the importance of researching, it's a key skill in software development.
 
 ## Regular Expressions
 
@@ -65,27 +65,27 @@ One key takeaway was realizing that we can automate backups in the server, makin
 ---
 ## Exploring use cases for cron jobs and fixing my rsync script 
     
-This day, I explored different applications of cron jobs. I was surprised to learn that these scheduled tasks could be used for far more than just backups. The world of cron jobs showed me opportunities for a wide array of tasks, like automated updates and report generation. This new knowledge broadened my knowledge on the use of cron jobs.
+This day, I explored different applications of cron jobs. I was surprised to learn that these scheduled tasks could be used for far more than just backups. The world of cron jobs showed me opportunities for a wide array of tasks, like automated updates and report generation. This new knowledge broadened my knowledge of the use of cron jobs.
 
-After exploring into the different applications of cron jobs, I faced a challenge with my rsync script. This script is responsible for synchronizing backup files between the server and my local machine, handling both my application and database backups. The issue was puzzling, my rsync script executes when triggered manually, but it failed to execute within a cron job. I realized that I need to include my SSH identity key or private key in the rsync command, a detail my mentor taught me. However, my mentor still spotted issues in my rsync script, and let me figure the remaining issues out. This situation made me aware of the importance of self-reliance and problem-solving. In the world of software development, one should not depend on others but actively engage in the process of understanding and resolving issues. With this, I successfully addressed the issue, and my rsync script now is functioning well.
+After exploring the different applications of cron jobs, I faced a challenge with my rsync script. This script is responsible for synchronizing backup files between the server and my local machine, handling both my application and database backups. The issue was puzzling, my rsync script executes when triggered manually, but it failed to execute within a cron job. I realized that I needed to include my SSH identity key or private key in the rsync command, a detail my mentor taught me. However, my mentor still spotted issues in my rsync script, and let me figure the remaining issues out. This situation made me aware of the importance of self-reliance and problem-solving. In the world of software development, one should not depend on others but actively engage in the process of understanding and resolving issues. With this, I successfully addressed the issue, and my rsync script now is functioning well.
 
 ## Exploring GitHub Actions and Workflows
 
-Today, I continued my learning on GitHub actions, workflows, and CI/CD. These topics might be a bit unfamiliar, but I'm genuinely excited to learn about them. I believe that having knowledge of these areas is crucial for any software developer. During this day, I had the opportunity to explore the existing workflows in the admin ticketing system. Our mentor told us to find the specific branch in the GitHub repository containing the workflow.
+Today, I continued my learning on GitHub actions, workflows, and CI/CD. These topics might be a bit unfamiliar, but I'm genuinely excited to learn about them. I believe that knowing these areas is crucial for any software developer. During this day, I had the opportunity to explore the existing workflows in the admin ticketing system. Our mentor told us to find the specific branch in the GitHub repository containing the workflow.
 
-It wasn't the easiest task to locate this branch, but I eventually discovered it by navigating to the Actions tab within the GitHub repository. There, I found the branch that held the workflow file. I noticed numerous workflow runs within the admin ticketing system, such as the process of copying the repository to the GCP-VM. It struck me that GitHub actions and workflows might have a learning curve, but I'm determined to learn these features. I look forward to learning deeper into GitHub actions and workflows, and I'm eager to apply this new knowledge in my work.
+It wasn't the easiest task to locate this branch, but I eventually discovered it by navigating to the Actions tab within the GitHub repository. There, I found the branch that held the workflow file. I noticed numerous workflow runs within the admin ticketing system, such as the process of copying the repository to the GCP-VM. It struck me that GitHub actions and workflows might have a learning curve, but I'm determined to learn these features. I look forward to learning more about GitHub actions and workflows, and I'm eager to apply this new knowledge in my work.
 
-## Applying Github Actions and Workflows
+## Applying GitHub Actions and Workflows
 
-Today was a day filled with excitement as I tried out what I've been learning about GitHub Actions and workflows. These things can be pretty complex, but I was determined to use them in my own project. GitHub Actions aren't exactly a walk in the park, they're a bit trickier than they seem.
+Today was a day filled with excitement as I tried out what I've been learning about GitHub Actions and workflows. These things can be pretty complex, but I was determined to use them in my project. GitHub Actions aren't exactly a walk in the park, they're a bit trickier than they seem.
 
-My goal was to set up something called continuous deployment for my app. That means whenever I or someone else pushes or combines changes in the 'prod' branch, those changes would go to the server all by themselves automatically. Here's the catch, I hit roadblock. My workflow was fetching the changes just fine, but it wasn't merging them. I still had to manually merge the changes on the server. So, I decided to keep working on this problem the next day. Even though things didn't go perfectly, I'm not giving up. This journey is all about learning, experimenting, and solving problems. It's a bit like a rollercoaster, full of ups and downs, but in the end, it's pretty exciting.
+My goal was to set up something called continuous deployment for my app. That means whenever I or someone else pushes or combines changes in the 'prod' branch, those changes would go to the server all by themselves automatically. Here's the catch, I hit a roadblock. My workflow was fetching the changes just fine, but it wasn't merging them. I still had to manually merge the changes on the server. So, I decided to keep working on this problem the next day. Even though things didn't go perfectly, I'm not giving up. This journey is all about learning, experimenting, and solving problems. It's a bit like a rollercoaster, full of ups and downs, but in the end, it's pretty exciting.
 
 ## Exploring Reverse SSH and Poor Man's VPN
 
 Today, my task was to study and explore two intriguing topics: Reverse SSH and Poor Man's VPN. Our manager introduced these concepts, which were entirely new to me. Starting with Reverse SSH, in simple terms, is like turning the usual way you connect to a computer or a server. Instead of a computer connecting to a server, it's the server initiating a connection to a computer. It's handy when the computer you want to reach is behind a firewall or not easily accessible from the internet. Reverse SSH creates a secure tunnel for the server to get into the computer, like a secret passage, allowing you to control or access the computer even if it's not directly reachable.
 
-Following this, I read about the "Poor Man's VPN." It turns out this is a clever method of using SSH as a straightforward VPN without the need for expensive,  equipments or software. Essentially, it provides basic VPN features using free and available tools like SSH without any additional costs. This new found knowledge was quite exciting, as it offered a cheap way to gain VPN-like capabilities using tools that are accessible like SSH.
+Following this, I read about the "Poor Man's VPN." It turns out this is a clever method of using SSH as a straightforward VPN without the need for expensive equipment or software. Essentially, it provides basic VPN features using free and available tools like SSH without any additional costs. This newfound knowledge was quite exciting, as it offered a cheap way to gain VPN-like capabilities using tools that are accessible like SSH.
 
 ---
 ## Sharing My Local Admin Ticketing System via Ngrok
@@ -98,23 +98,23 @@ Another thing to note was that the URL provided by Ngrok was temporary. So, I ha
 
 ## Testing "Poor Man's VPN"
 
-Today's tasks were quite straightforward. I focused on exploring something called "Poor Man's VPN" using SSH. This involves creating an SSH tunnel to connect to a server, in this case, the ronins server. This was an interesting experience as I had never worked with SSH tunnels before.
+Today's tasks were quite straightforward. I focused on exploring something called "Poor Man's VPN" using SSH. This involves creating an SSH tunnel to connect to a server, in this case, the Ronins server. This was an interesting experience as I had never worked with SSH tunnels before.
 
 To set up the tunnel, I configured my laptop's network settings by enabling a Socks proxy. This essentially acts as a gateway for my connection. After everything was set up, I verified the connection by visiting a website, [whatismyipaddress.com](http://whatismyipaddress.com/). To my surprise, it showed a different internet service provider and country, New Dream Network and the United States, respectively. This indicated that my connection was going through a different route. It was a pretty cool test, and it demonstrated the effectiveness of "Poor Man's VPN".
 
-Additionally, I provided my manager with an update on my progress with GitHub Actions and Workflows. It's important to keep everyone informed our progress on a task. 
+Additionally, I provided my manager with an update on my progress with GitHub Actions and Workflows. It's important to keep everyone informed of our progress on a task. 
 
 ## GitHub Workflows: A Success Story
 
-Today, I got back into GitHub Actions and Workflows with determination. I was keen on resolving an issue that had been bothering me, my workflow that do not deploy code changes on the server as correctly.
+Today, I got back into GitHub Actions and Workflows with determination. I was keen on resolving an issue that had been bothering me, my workflow does not deploy code changes on the server as correctly.
 
 To find a solution, I did some research. As it turns out, I could use a simple `git pull` command to pull changes to my repository using a GitHub token. To keep this sensitive token safe, I stored it in my repository's secrets. With the token secured, I integrated this script into my workflow, and to my surprise, it worked fine. Seeing my workflow working correctly was highly satisfying, and I couldn't help but feel a sense of accomplishment.
 
-This experience made me more determined to explore more GitHub Action and Workflows. I believe there's a lot more to uncover and I'm excited to learn more.
+This experience made me more determined to explore GitHub Action and Workflows. I believe there's a lot more to uncover and I'm excited to learn more.
 
 ## Codium AI with VSCode and Github Workflows
 
-Today was all about improving my workflow with a new addition, continuous integration. This time, the workflow executes when there's a pull request on the prod branch. It's like an extra layer of quality checks before code gets merged.
+Today was all about improving my workflow with a new addition, continuous integration. This time, the workflow executes when there's a pull request on the prod branch. It's like an extra layer of quality checks before the code gets merged.
 
 I also explored Codium AI, a tool that works with Visual Studio and GitHub workflows. What it does is pretty cool, it analyzes your code and automatically generates meaningful tests to catch any bugs. These tests help ensure your software is reliable and correct. What's even better, Codium AI can handle all programming languages, which makes our lives easier. AI is really like a super smart assistant that can help us in many ways. But there's something important to remember, AI can't take the place of a real, human programmer. It's just like having a helpful tool but it can't do everything on its own. So, we should use AI to make our work easier and better. AI and humans can work together to do amazing things.
 

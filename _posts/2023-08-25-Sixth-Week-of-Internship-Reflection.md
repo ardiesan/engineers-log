@@ -6,7 +6,7 @@ categories:
 - internship
 image: assets/images/sixthweek.jpeg
 ---
-This week I learned about shell commands, cybersecurity, and Git configurations. Me and my co-intern did code reading, this will help us understand projects better. 
+This week I learned about shell commands, cybersecurity, and Git configurations. Me and my co-intern did code reading, which helped us understand projects better. 
 
 ---
 ## Day 1: Exploring Git: Branching and Stashing
@@ -31,10 +31,10 @@ Additionally, we learned two ways to verify Git commits:
 2. Editing commits from the web interface. Though the web interface shows the signature is from the web, it's preferable to use the command line interface.
 
 #### Simplified Development
-Git makes software development much more manageable. With branching, organized development is possible, allowing us to work on different parts without causing chaos. Committing with good message ensures clarity. By learning these fundamental Git concepts, we will be more effective and organized.
+Git makes software development much more manageable. With branching, organized development is possible, allowing us to work on different parts without causing chaos. Committing with a good message ensures clarity. By learning these fundamental Git concepts, we will be more effective and organized.
 
 #### Analyzing Changes with `git diff`
-Git has the ability to show differences between versions through the `git diff` command. This command provides a visual representation of changes, highlighting which lines were added and which were removed. When using tools like Visual Studio Code, the + and - symbols help us quickly identify additions and deletions.
+Git can show differences between versions through the `git diff` command. This command provides a visual representation of changes, highlighting which lines were added and which were removed. When using tools like Visual Studio Code, the + and - symbols help us quickly identify additions and deletions.
 
 #### `git stash`
 When conflicts arise, a solution emerges in the form of Git stash. We dived into the commands that let us stash our changes and effectively remove and apply the stashed changes. Although mastering this technique may require some diligent study, its potential to circumvent conflicts is invaluable.
@@ -72,16 +72,16 @@ When working within the shell, you can identify the type of user based on the pr
 - On the other hand, if the prompt displays a `#` symbol, you're operating as the root user. Root users have the privilege to install software and perform tasks without needing `sudo`.
 - It's important to note that installing software is a privilege and not all users should have this ability. This helps maintain system security.
 
-However, the reliability of the prompt symbol isn't reliable. Sometimes the prompt may be customized which could lead to misinterpretation. Therefore, while the prompt symbol provides an initial indication, it's wise to rely on other context as well when determining user roles within the shell.
+However, the reliability of the prompt symbol isn't reliable. Sometimes the prompt may be customized which could lead to misinterpretation. Therefore, while the prompt symbol provides an initial indication, it's wise to rely on other contexts as well when determining user roles within the shell.
 
 #### Cybersecurity
-In cybersecurity, there are conventions and patterns to follow. Cybersecurity vulnerabilities often arise from incorrect implementations and not following to these established patterns. Becoming proficient in cybersecurity takes time and dedication, much like becoming skilled in software development.
+In cybersecurity, there are conventions and patterns to follow. Cybersecurity vulnerabilities often arise from incorrect implementations and not following the established patterns. Becoming proficient in cybersecurity takes time and dedication, much like becoming skilled in software development.
 
 #### Learning in Software Development
 
 In the world of software development, there's no one-size-fits-all device or operating system that is supreme. The choice of tools depends on the developer's willingness to learn and explore. As developers, we make the most of what we have, focusing on developing our skills rather than focusing on specific devices or systems.
 
-Similar to how there's no "best" programming language. Each language has its own strengths and is suited for different tasks. Popularity alone doesn't determine it's the best. Instead, a language's fit for a particular purpose matters most. Embracing this differences is essential in becoming a well-rounded developer. After all, true developers understand that there's no "best" programming language, device, and operating system in the world of software development.
+Similar to how there's no "best" programming language. Each language has its strengths and is suited for different tasks. Popularity alone doesn't determine it's the best. Instead, a language's fit for a particular purpose matters most. Embracing these differences is essential to becoming a well-rounded developer. After all, true developers understand that there's no "best" programming language, device, and operating system in the world of software development.
 
 ---
 ## Day 4: Git Configuration and Code Reading
@@ -90,4 +90,4 @@ On this week's fourth day of internship, our mentor taught us some important con
 
 Additionally, we learned about the significance of signing Git commits. By signing commits, we add a layer of security and authenticity to our work, ensuring that the changes we make are verified. This helps make our work safe and trusted.
 
-Later in the day, we engaged in a session of code reading. We had the opportunity to read the code behind the admin-ticketing-system, which we will be collaborating on in the future. Code reading is a crucial skill that allows us to understand projects, it will be for effective collaboration and development.
+Later in the day, we engaged in a session of code reading. We had the opportunity to read the code behind the admin ticketing system, which we will be collaborating on in the future. Code reading is a crucial skill that allows us to understand projects, it will be for effective collaboration and development.

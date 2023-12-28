@@ -28,7 +28,7 @@ Exploring Git commands and conflict resolution deepened my understanding of vers
 ### Fourth Week: 
 In the fourth week, identifying and resolving inconsistencies in the application was a challenging task. Reporting and addressing these issues will contribute to the overall improvement of the project. Learning to create bug tickets in JIRA was another milestone, and I was satisfied with the outcome despite initial setbacks.
 
-Collaborative bug-hunting and ticket creation with my fellow interns was both enjoyable and productive. It reinforced the importance of teamwork and innovation in software development.
+Collaborative bug-hunting and ticket creation with my fellow interns were both enjoyable and productive. It reinforced the importance of teamwork and innovation in software development.
 
 ### Fifth Week: 
 The fifth week brought a day filled with learning, from writing bug reports to mastering SSH and overcoming challenges with smartphones. The experience of SSHing into my phone and then into the server was both challenging and rewarding. It emphasized the significance of secure remote access and file transfer in web development.

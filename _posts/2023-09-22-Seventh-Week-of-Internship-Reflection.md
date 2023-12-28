@@ -22,9 +22,9 @@ As we progress, our exploration of middleware continues, and we eagerly anticipa
 
 ### Day 2: Deploying a Laravel Project with Middleware
 
-Today, access to the Ronin's database server was granted we were able to login, and our current objective is to deploy a Laravel project with middleware on the remote server. However, personally, I didn't have any existing Laravel projects to deploy. Consequently, I took the initiative to create my own project and integrate middleware.
+Today, access to Ronin's database server was granted we were able to log in, and our current objective is to deploy a Laravel project with middleware on the remote server. However, personally, I didn't have any existing Laravel projects to deploy. Consequently, I took the initiative to create my project and integrate middleware.
 
-In the late afternoon, I successfully completed the development of my application and was all set for deployment. Unfortunately, I encountered an error when attempting to migrate my tables to the remote database server. This error message indicated that my account lacked the necessary authorization access to perform the migration. With limited time remaining, I made the decision to postpone deployment to the next workday.
+In the late afternoon, I completed the development of my application and was all set for deployment. Unfortunately, I encountered an error when attempting to migrate my tables to the remote database server. This error message indicated that my account lacked the necessary authorization access to perform the migration. With limited time remaining, I decided to postpone deployment to the next workday.
 
 ### Day 3: Transferring a Laravel Application with SCP
 

@@ -21,9 +21,9 @@ After receiving feedback on our inconsistency report yesterday, today's task was
 
 ### Day 3: Collaborative Bug-Hunting and Ticket Creation
 
-Today, our mentor instructed us to focus on finding another bug and creating a corresponding JIRA ticket for it. The task involved assigning the ticket that i have created to my fellow interns. Collaboratively, my co-interns and I engaged in brainstorming sessions to enhance and address bugs in the fst-admin-ticket-system application. Our exploration led us to pinpoint specific modules with bugs that required to be fixed. Consequently, we successfully created tickets and assigned them to the team.
+Today, our mentor instructed us to focus on finding another bug and creating a corresponding JIRA ticket for it. The task involved assigning the ticket that I had created to my fellow interns. Collaboratively, my co-interns and I engaged in brainstorming sessions to enhance and address bugs in the fst-admin-ticket-system application. Our exploration led us to pinpoint specific modules with bugs that required to be fixed. Consequently, we successfully created tickets and assigned them to the team.
 
-In my own bug ticket report, I identified an issue where the width of the profile section within the sidebar exceeds the appropriate boundaries when the webpage is resized by at least 40% from left to right. This inconsistency in display can potentially disrupt the user experience while navigating the application. 
+In my bug ticket report, I identified an issue where the width of the profile section within the sidebar exceeds the appropriate boundaries when the webpage is resized by at least 40% from left to right. This inconsistency in display can potentially disrupt the user experience while navigating the application. 
 
 The bug ticket assigned to me required fixing an issue where the dashboard failed to display any data in the recent updates table when selecting 'ALL' from its drop-down query. Furthermore, the default value for the statuses was incorrectly set to 'NEW' instead of 'ALL.' After some work, I successfully resolved the problem and ensured that the drop-down menu for 'ALL' now functions correctly."
 

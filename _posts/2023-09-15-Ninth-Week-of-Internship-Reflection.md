@@ -13,11 +13,11 @@ GitHub Pull Requests and Best Practices, Exploring Laravel Livewire, A Day of La
 
 My first day this week was quite educational. Our manager shared an important lesson about GitHub pull requests. It's essential to include the link to the related Jira ticket in the pull request description. Equally important, the Jira ticket should have a link back to the GitHub pull request.
 
-In the course of the day, I made changes to two of my tickets. The first involved converting a JavaScript function into a CSS media query. I realized that I hadn't considered a crucial factor, that some users might disable JavaScript in their browsers, making my solution ineffective. This taught me the importance of considering various scenarios when making code changes.
+In the course of the day, I made changes to two of my tickets. The first involved converting a JavaScript function into a CSS media query. I realized that I didn't consider a crucial factor, that some users might disable JavaScript in their browsers, making my solution ineffective. This taught me the importance of considering various scenarios when making code changes.
 
 The second ticket involved moving an inline CSS attribute directly into the CSS file. This change not only improved code readability but also followed best practices by separating styles from the page itself.
 
-Additionally, I learned about draft pull requests. These are handy when you need to make further changes to your work before it's ready for review. I converted my first ticket's pull request into a draft initially because I needed to make some adjustments. Later, I changed it back to a regular pull request once I was satisfied with the changes. This practice ensures that reviewers see the most up-to-date work and and can also track your progress of a task. 
+Additionally, I learned about draft pull requests. These are handy when you need to make further changes to your work before it's ready for review. I converted my first ticket's pull request into a draft initially because I needed to make some adjustments. Later, I changed it back to a regular pull request once I was satisfied with the changes. This practice ensures that reviewers see the most up-to-date work and can also track our progress on a certain task. 
 
 ---
 ## Day 2: Exploring Laravel Livewire
@@ -51,7 +51,7 @@ php artisan make:middleware MyNewMiddleware
 ````
 This command will place a new `MyNewMiddleware` class within our `app/Http/Middleware` directory.
 
-**These are few uses of Middleware:**
+**These are a few uses of Middleware:**
 
 - **Authentication:** Middleware can check if a user is logged in or has the right permissions to access certain parts of a website or application. If not, it can redirect them to a login page or deny access.
     

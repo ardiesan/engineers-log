@@ -6,7 +6,7 @@ categories:
 - internship
 image: assets/images/fifthweek.jpeg
 ---
-This week I learned about shell commands, cybersecurity, and Git configurations. Me and my co-intern did code reading, this will help us understand projects better. 
+This week I learned about shell commands, cybersecurity, and Git configurations. Me and my co-intern did code reading, which helped us understand projects better. 
 
 ---
 ## Day 1: JIRA for Efficient Project Management 
@@ -31,7 +31,7 @@ My second day didn't go as planned. The goal was to check out and test our admin
 
 I decided to explore another path. Instead of installing GitHub CLI, I decided to check out the project directly through the GitHub website. While it wasn't the original plan, it was a workaround that allowed me to continue engaging with the project. My manager's suggestion to update my macOS was a step towards resolving the issue, so I initiated the update and patiently waited for it to complete. During this time, I turned to my phone to explore and learn about two topics: Laravel Sail and PSR-12.
 
-One valuable lesson I've learned from this experience is the importance of being resourceful. When facing difficulties, it's crucial to think and use the tools and options that are available. While I couldn't access the project in the way I initially intended, I found a way to keep moving forward and make the most of the situation. This supports the idea that in the world of software development, adaptability and resourcefulness are key attributes we need to practice. I also learned to expect the unexpected. Despite planning, things might not always go as planned. Adaptability is key. When unexpected challenges happen, it's important to remember that flexibility is a nice trait to have. We can't always predict task blockers, we can control how we respond to them. When we encounter a problem, we shouldn't hesitate to ask for guidance. It's alright to ask for help when we find ourselves in a tough spot. Seeking guidance from those with more experience can lead to effective solutions and valuable learning opportunities. We should always remember that we are not alone in our journey, and seeking assistance is a sign of strength, not weakness.
+One valuable lesson I've learned from this experience is the importance of being resourceful. When facing difficulties, it's crucial to think and use the tools and options that are available. While I couldn't access the project in the way I initially intended, I found a way to keep moving forward and make the most of the situation. This supports the idea that in the world of software development, adaptability and resourcefulness are key attributes we need to practice. I also learned to expect the unexpected. Despite planning, things might not always go as planned. Adaptability is key. When unexpected challenges happen, it's important to remember that flexibility is a nice trait to have. We can't always predict task blockers, but we can control how we respond to them. When we encounter a problem, we shouldn't hesitate to ask for guidance. It's alright to ask for help when we find ourselves in a tough spot. Seeking guidance from those with more experience can lead to effective solutions and valuable learning opportunities. We should always remember that we are not alone in our journey, and seeking assistance is a sign of strength, not weakness.
 
 ---
 ## Day 3: Shell Commands and Networking Basics
@@ -61,16 +61,16 @@ When working within the shell, you can identify the type of user based on the pr
 - On the other hand, if the prompt displays a `#` symbol, you're operating as the root user. Root users have the privilege to install software and perform tasks without needing `sudo`.
 - It's important to note that installing software is a privilege and not all users should have this ability. This helps maintain system security.
 
-However, the reliability of the prompt symbol isn't reliable. Sometimes the prompt may be customized which could lead to misinterpretation. Therefore, while the prompt symbol provides an initial indication, it's wise to rely on other context as well when determining user roles within the shell.
+However, the reliability of the prompt symbol isn't reliable. Sometimes the prompt may be customized which could lead to misinterpretation. Therefore, while the prompt symbol provides an initial indication, it's wise to rely on other contexts as well when determining user roles within the shell.
 
 #### Cybersecurity
-In cybersecurity, there are conventions and patterns to follow. Cybersecurity vulnerabilities often arise from incorrect implementations and not following to these established patterns. Becoming proficient in cybersecurity takes time and dedication, much like becoming skilled in software development.
+In cybersecurity, there are conventions and patterns to follow. Cybersecurity vulnerabilities often arise from incorrect implementations and not following the established patterns. Becoming proficient in cybersecurity takes time and dedication, much like becoming skilled in software development.
 
 #### Learning in Software Development
 
 In the world of software development, there's no one-size-fits-all device or operating system that is supreme. The choice of tools depends on the developer's willingness to learn and explore. As developers, we make the most of what we have, focusing on developing our skills rather than focusing on specific devices or systems.
 
-Similar to how there's no "best" programming language. Each language has its own strengths and is suited for different tasks. Popularity alone doesn't determine it's the best. Instead, a language's fit for a particular purpose matters most. Embracing this differences is essential in becoming a well-rounded developer. After all, true developers understand that there's no "best" programming language, device, and operating system in the world of software development.
+Similar to how there's no "best" programming language. Each language has its strengths and is suited for different tasks. Popularity alone doesn't determine it's the best. Instead, a language's fit for a particular purpose matters most. Embracing these differences is essential to becoming a well-rounded developer. After all, true developers understand that there's no "best" programming language, device, and operating system in the world of software development.
 
 ---
 ## Day 4: Git Configuration and Code Reading
@@ -79,4 +79,4 @@ On this week's fourth day of internship, our mentor taught us some important con
 
 Additionally, we learned about the significance of signing Git commits. By signing commits, we add a layer of security and authenticity to our work, ensuring that the changes we make are verified. This helps make our work safe and trusted.
 
-Later in the day, we engaged in a session of code reading. We had the opportunity to read the code behind the admin-ticketing-system, which we will be collaborating on in the future. Code reading is a crucial skill that allows us to understand projects, it will be for effective collaboration and development.
+Later in the day, we engaged in a session of code reading. We had the opportunity to read the code behind the admin ticketing system, which we will be collaborating on in the future. Code reading is a crucial skill that allows us to understand projects, it will be for effective collaboration and development.

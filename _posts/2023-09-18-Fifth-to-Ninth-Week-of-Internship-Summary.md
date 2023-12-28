@@ -6,7 +6,7 @@ categories:
 - internship
 image: assets/images/fifthninthsummary.jpeg
 ---
-During this five-week period, I continued to deepen my knowledge and skills in software development. From learning about the JIRA for effective project management to exploring new technologies like Laravel Livewire, SSH, and middleware, each week brought valuable insights and experiences. I also learned about best practices for GitHub pull requests and enhanced my ability to think critically and adapt to challenges in the software development world.
+During these five weeks, I continued to deepen my knowledge and skills in software development. From learning about the JIRA for effective project management to exploring new technologies like Laravel Livewire, SSH, and middleware, each week brought valuable insights and experiences. I also learned about best practices for GitHub pull requests and enhanced my ability to think critically and adapt to challenges in the software development world.
 
 ---
 **Week 5: JIRA, Shell Commands, and Networking Basics**
@@ -70,10 +70,10 @@ During this five-week period, I continued to deepen my knowledge and skills in s
     - _Enhancing Communication_: I learned about effective communication using the 5Ws and 1H method, which helps make messages clear and informative.
 
 - **Day 2: Document Signing and System Brainstorming**
-    - I didn't have a coding task on this day. Instead, I visited the office to get documents signed. While waiting, I discussed potential enhancements to the admin ticketing system with my fellow intern. It was a productive discussion, highlighting the importance of preparation and making good use of my time.
+    - I didn't have a coding task on this day. Instead, I visited the office to get my documents signed. While waiting, I discussed potential enhancements to the admin ticketing system with my fellow intern. It was a productive discussion, highlighting the importance of preparation and making good use of my time.
 
 - **Day 3: Finding System Issues**
-    - I was assigned to look for more issues in the admin ticketing system. I identified problems related to responsive design when the browser window is resized. One issue was about tables not getting a horizontal scroll bar, making it hard to view all information. Another issue involved the profile section exceeding the left navigation area. I reached out to fellow interns for help and solved the issues, learning the value of knowing when to ask for assistance.
+    - I was assigned to look for more issues in the admin ticketing system. I identified problems related to responsive design when the browser window is resized. One issue was about tables not getting a horizontal scroll bar, making it hard to view all the information. Another issue involved the profile section exceeding the left navigation area. I reached out to fellow interns for help and solved the issues, learning the value of knowing when to ask for assistance.
 
 
 
